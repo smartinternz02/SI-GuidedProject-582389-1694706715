@@ -1,0 +1,3265 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>135cf162c1bb4ac295cffb3b7cf02acc</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="VO_Z0AFLsXLV" class="cell markdown" id="VO_Z0AFLsXLV">
+<p>#21BCE3320 MONESH D</p>
+</div>
+<div id="70a9a7f4-1c60-46fe-aa3b-6502e6d520c5" class="cell code"
+data-execution_count="8" id="70a9a7f4-1c60-46fe-aa3b-6502e6d520c5">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span></code></pre></div>
+</div>
+<div id="6bfa1714-ab51-45e6-a330-f8ed2587f829" class="cell code"
+data-execution_count="9"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:325}"
+id="6bfa1714-ab51-45e6-a330-f8ed2587f829"
+data-outputId="29735787-42b3-473d-ee1a-acee1673d68e">
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>data1 <span class="op">=</span> pd.read_csv(<span class="st">&#39;WA_Fn-UseC_-HR-Employee-Attrition.csv&#39;</span>)</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>data1.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="9">
+
+  <div id="df-bed12e1e-742d-46c5-b3bf-ee349c8d27c7" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Age</th>
+      <th>Attrition</th>
+      <th>BusinessTravel</th>
+      <th>DailyRate</th>
+      <th>Department</th>
+      <th>DistanceFromHome</th>
+      <th>Education</th>
+      <th>EducationField</th>
+      <th>EmployeeCount</th>
+      <th>EmployeeNumber</th>
+      <th>...</th>
+      <th>RelationshipSatisfaction</th>
+      <th>StandardHours</th>
+      <th>StockOptionLevel</th>
+      <th>TotalWorkingYears</th>
+      <th>TrainingTimesLastYear</th>
+      <th>WorkLifeBalance</th>
+      <th>YearsAtCompany</th>
+      <th>YearsInCurrentRole</th>
+      <th>YearsSinceLastPromotion</th>
+      <th>YearsWithCurrManager</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>41</td>
+      <td>Yes</td>
+      <td>Travel_Rarely</td>
+      <td>1102</td>
+      <td>Sales</td>
+      <td>1</td>
+      <td>2</td>
+      <td>Life Sciences</td>
+      <td>1</td>
+      <td>1</td>
+      <td>...</td>
+      <td>1</td>
+      <td>80</td>
+      <td>0</td>
+      <td>8</td>
+      <td>0</td>
+      <td>1</td>
+      <td>6</td>
+      <td>4</td>
+      <td>0</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>49</td>
+      <td>No</td>
+      <td>Travel_Frequently</td>
+      <td>279</td>
+      <td>Research &amp; Development</td>
+      <td>8</td>
+      <td>1</td>
+      <td>Life Sciences</td>
+      <td>1</td>
+      <td>2</td>
+      <td>...</td>
+      <td>4</td>
+      <td>80</td>
+      <td>1</td>
+      <td>10</td>
+      <td>3</td>
+      <td>3</td>
+      <td>10</td>
+      <td>7</td>
+      <td>1</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>37</td>
+      <td>Yes</td>
+      <td>Travel_Rarely</td>
+      <td>1373</td>
+      <td>Research &amp; Development</td>
+      <td>2</td>
+      <td>2</td>
+      <td>Other</td>
+      <td>1</td>
+      <td>4</td>
+      <td>...</td>
+      <td>2</td>
+      <td>80</td>
+      <td>0</td>
+      <td>7</td>
+      <td>3</td>
+      <td>3</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>33</td>
+      <td>No</td>
+      <td>Travel_Frequently</td>
+      <td>1392</td>
+      <td>Research &amp; Development</td>
+      <td>3</td>
+      <td>4</td>
+      <td>Life Sciences</td>
+      <td>1</td>
+      <td>5</td>
+      <td>...</td>
+      <td>3</td>
+      <td>80</td>
+      <td>0</td>
+      <td>8</td>
+      <td>3</td>
+      <td>3</td>
+      <td>8</td>
+      <td>7</td>
+      <td>3</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>27</td>
+      <td>No</td>
+      <td>Travel_Rarely</td>
+      <td>591</td>
+      <td>Research &amp; Development</td>
+      <td>2</td>
+      <td>1</td>
+      <td>Medical</td>
+      <td>1</td>
+      <td>7</td>
+      <td>...</td>
+      <td>4</td>
+      <td>80</td>
+      <td>1</td>
+      <td>6</td>
+      <td>3</td>
+      <td>3</td>
+      <td>2</td>
+      <td>2</td>
+      <td>2</td>
+      <td>2</td>
+    </tr>
+  </tbody>
+</table>
+<p>5 rows × 35 columns</p>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-bed12e1e-742d-46c5-b3bf-ee349c8d27c7')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-bed12e1e-742d-46c5-b3bf-ee349c8d27c7 button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-bed12e1e-742d-46c5-b3bf-ee349c8d27c7');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+
+<div id="df-7d2761d5-9708-4935-90e0-2ece514fba68">
+  <button class="colab-df-quickchart" onclick="quickchart('df-7d2761d5-9708-4935-90e0-2ece514fba68')"
+            title="Suggest charts."
+            style="display:none;">
+
+<svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+     width="24px">
+    <g>
+        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+    </g>
+</svg>
+  </button>
+
+<style>
+  .colab-df-quickchart {
+      --bg-color: #E8F0FE;
+      --fill-color: #1967D2;
+      --hover-bg-color: #E2EBFA;
+      --hover-fill-color: #174EA6;
+      --disabled-fill-color: #AAA;
+      --disabled-bg-color: #DDD;
+  }
+
+  [theme=dark] .colab-df-quickchart {
+      --bg-color: #3B4455;
+      --fill-color: #D2E3FC;
+      --hover-bg-color: #434B5C;
+      --hover-fill-color: #FFFFFF;
+      --disabled-bg-color: #3B4455;
+      --disabled-fill-color: #666;
+  }
+
+  .colab-df-quickchart {
+    background-color: var(--bg-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    fill: var(--fill-color);
+    height: 32px;
+    padding: 0;
+    width: 32px;
+  }
+
+  .colab-df-quickchart:hover {
+    background-color: var(--hover-bg-color);
+    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+    fill: var(--button-hover-fill-color);
+  }
+
+  .colab-df-quickchart-complete:disabled,
+  .colab-df-quickchart-complete:disabled:hover {
+    background-color: var(--disabled-bg-color);
+    fill: var(--disabled-fill-color);
+    box-shadow: none;
+  }
+
+  .colab-df-spinner {
+    border: 2px solid var(--fill-color);
+    border-color: transparent;
+    border-bottom-color: var(--fill-color);
+    animation:
+      spin 1s steps(1) infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+      border-left-color: var(--fill-color);
+    }
+    20% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    30% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+      border-right-color: var(--fill-color);
+    }
+    40% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    60% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+    }
+    80% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-bottom-color: var(--fill-color);
+    }
+    90% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+    }
+  }
+</style>
+
+  <script>
+    async function quickchart(key) {
+      const quickchartButtonEl =
+        document.querySelector('#' + key + ' button');
+      quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
+      quickchartButtonEl.classList.add('colab-df-spinner');
+      try {
+        const charts = await google.colab.kernel.invokeFunction(
+            'suggestCharts', [key], {});
+      } catch (error) {
+        console.error('Error during call to suggestCharts:', error);
+      }
+      quickchartButtonEl.classList.remove('colab-df-spinner');
+      quickchartButtonEl.classList.add('colab-df-quickchart-complete');
+    }
+    (() => {
+      let quickchartButtonEl =
+        document.querySelector('#df-7d2761d5-9708-4935-90e0-2ece514fba68 button');
+      quickchartButtonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+    })();
+  </script>
+</div>
+    </div>
+  </div>
+
+</div>
+</div>
+<div id="8e59aed0-db3b-4a0a-9bfa-643238fb5bb1" class="cell code"
+id="8e59aed0-db3b-4a0a-9bfa-643238fb5bb1"
+data-outputId="b65ca0ba-d95b-4949-dfc9-e7ff3b82a2f4">
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>data1.shape</span></code></pre></div>
+<div class="output execute_result" data-execution_count="3">
+<pre><code>(1470, 35)</code></pre>
+</div>
+</div>
+<div id="4ec958b9-a531-473b-b4a5-c17fdefffef9" class="cell code"
+data-execution_count="4"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:350}"
+id="4ec958b9-a531-473b-b4a5-c17fdefffef9"
+data-outputId="4e7d590c-fb95-48c0-8487-2b77e07753e8">
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>data1.describe()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="4">
+
+  <div id="df-edb323d6-fdfd-4fa7-84d2-1de7c6906675" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Age</th>
+      <th>DailyRate</th>
+      <th>DistanceFromHome</th>
+      <th>Education</th>
+      <th>EmployeeCount</th>
+      <th>EmployeeNumber</th>
+      <th>EnvironmentSatisfaction</th>
+      <th>HourlyRate</th>
+      <th>JobInvolvement</th>
+      <th>JobLevel</th>
+      <th>...</th>
+      <th>RelationshipSatisfaction</th>
+      <th>StandardHours</th>
+      <th>StockOptionLevel</th>
+      <th>TotalWorkingYears</th>
+      <th>TrainingTimesLastYear</th>
+      <th>WorkLifeBalance</th>
+      <th>YearsAtCompany</th>
+      <th>YearsInCurrentRole</th>
+      <th>YearsSinceLastPromotion</th>
+      <th>YearsWithCurrManager</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>count</th>
+      <td>1470.000000</td>
+      <td>1470.000000</td>
+      <td>1470.000000</td>
+      <td>1470.000000</td>
+      <td>1470.0</td>
+      <td>1470.000000</td>
+      <td>1470.000000</td>
+      <td>1470.000000</td>
+      <td>1470.000000</td>
+      <td>1470.000000</td>
+      <td>...</td>
+      <td>1470.000000</td>
+      <td>1470.0</td>
+      <td>1470.000000</td>
+      <td>1470.000000</td>
+      <td>1470.000000</td>
+      <td>1470.000000</td>
+      <td>1470.000000</td>
+      <td>1470.000000</td>
+      <td>1470.000000</td>
+      <td>1470.000000</td>
+    </tr>
+    <tr>
+      <th>mean</th>
+      <td>36.923810</td>
+      <td>802.485714</td>
+      <td>9.192517</td>
+      <td>2.912925</td>
+      <td>1.0</td>
+      <td>1024.865306</td>
+      <td>2.721769</td>
+      <td>65.891156</td>
+      <td>2.729932</td>
+      <td>2.063946</td>
+      <td>...</td>
+      <td>2.712245</td>
+      <td>80.0</td>
+      <td>0.793878</td>
+      <td>11.279592</td>
+      <td>2.799320</td>
+      <td>2.761224</td>
+      <td>7.008163</td>
+      <td>4.229252</td>
+      <td>2.187755</td>
+      <td>4.123129</td>
+    </tr>
+    <tr>
+      <th>std</th>
+      <td>9.135373</td>
+      <td>403.509100</td>
+      <td>8.106864</td>
+      <td>1.024165</td>
+      <td>0.0</td>
+      <td>602.024335</td>
+      <td>1.093082</td>
+      <td>20.329428</td>
+      <td>0.711561</td>
+      <td>1.106940</td>
+      <td>...</td>
+      <td>1.081209</td>
+      <td>0.0</td>
+      <td>0.852077</td>
+      <td>7.780782</td>
+      <td>1.289271</td>
+      <td>0.706476</td>
+      <td>6.126525</td>
+      <td>3.623137</td>
+      <td>3.222430</td>
+      <td>3.568136</td>
+    </tr>
+    <tr>
+      <th>min</th>
+      <td>18.000000</td>
+      <td>102.000000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>1.0</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>30.000000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>...</td>
+      <td>1.000000</td>
+      <td>80.0</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>1.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>25%</th>
+      <td>30.000000</td>
+      <td>465.000000</td>
+      <td>2.000000</td>
+      <td>2.000000</td>
+      <td>1.0</td>
+      <td>491.250000</td>
+      <td>2.000000</td>
+      <td>48.000000</td>
+      <td>2.000000</td>
+      <td>1.000000</td>
+      <td>...</td>
+      <td>2.000000</td>
+      <td>80.0</td>
+      <td>0.000000</td>
+      <td>6.000000</td>
+      <td>2.000000</td>
+      <td>2.000000</td>
+      <td>3.000000</td>
+      <td>2.000000</td>
+      <td>0.000000</td>
+      <td>2.000000</td>
+    </tr>
+    <tr>
+      <th>50%</th>
+      <td>36.000000</td>
+      <td>802.000000</td>
+      <td>7.000000</td>
+      <td>3.000000</td>
+      <td>1.0</td>
+      <td>1020.500000</td>
+      <td>3.000000</td>
+      <td>66.000000</td>
+      <td>3.000000</td>
+      <td>2.000000</td>
+      <td>...</td>
+      <td>3.000000</td>
+      <td>80.0</td>
+      <td>1.000000</td>
+      <td>10.000000</td>
+      <td>3.000000</td>
+      <td>3.000000</td>
+      <td>5.000000</td>
+      <td>3.000000</td>
+      <td>1.000000</td>
+      <td>3.000000</td>
+    </tr>
+    <tr>
+      <th>75%</th>
+      <td>43.000000</td>
+      <td>1157.000000</td>
+      <td>14.000000</td>
+      <td>4.000000</td>
+      <td>1.0</td>
+      <td>1555.750000</td>
+      <td>4.000000</td>
+      <td>83.750000</td>
+      <td>3.000000</td>
+      <td>3.000000</td>
+      <td>...</td>
+      <td>4.000000</td>
+      <td>80.0</td>
+      <td>1.000000</td>
+      <td>15.000000</td>
+      <td>3.000000</td>
+      <td>3.000000</td>
+      <td>9.000000</td>
+      <td>7.000000</td>
+      <td>3.000000</td>
+      <td>7.000000</td>
+    </tr>
+    <tr>
+      <th>max</th>
+      <td>60.000000</td>
+      <td>1499.000000</td>
+      <td>29.000000</td>
+      <td>5.000000</td>
+      <td>1.0</td>
+      <td>2068.000000</td>
+      <td>4.000000</td>
+      <td>100.000000</td>
+      <td>4.000000</td>
+      <td>5.000000</td>
+      <td>...</td>
+      <td>4.000000</td>
+      <td>80.0</td>
+      <td>3.000000</td>
+      <td>40.000000</td>
+      <td>6.000000</td>
+      <td>4.000000</td>
+      <td>40.000000</td>
+      <td>18.000000</td>
+      <td>15.000000</td>
+      <td>17.000000</td>
+    </tr>
+  </tbody>
+</table>
+<p>8 rows × 26 columns</p>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-edb323d6-fdfd-4fa7-84d2-1de7c6906675')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-edb323d6-fdfd-4fa7-84d2-1de7c6906675 button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-edb323d6-fdfd-4fa7-84d2-1de7c6906675');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+
+<div id="df-4e8dfc92-d0db-40c8-a6f8-21d51f7289eb">
+  <button class="colab-df-quickchart" onclick="quickchart('df-4e8dfc92-d0db-40c8-a6f8-21d51f7289eb')"
+            title="Suggest charts."
+            style="display:none;">
+
+<svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+     width="24px">
+    <g>
+        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+    </g>
+</svg>
+  </button>
+
+<style>
+  .colab-df-quickchart {
+      --bg-color: #E8F0FE;
+      --fill-color: #1967D2;
+      --hover-bg-color: #E2EBFA;
+      --hover-fill-color: #174EA6;
+      --disabled-fill-color: #AAA;
+      --disabled-bg-color: #DDD;
+  }
+
+  [theme=dark] .colab-df-quickchart {
+      --bg-color: #3B4455;
+      --fill-color: #D2E3FC;
+      --hover-bg-color: #434B5C;
+      --hover-fill-color: #FFFFFF;
+      --disabled-bg-color: #3B4455;
+      --disabled-fill-color: #666;
+  }
+
+  .colab-df-quickchart {
+    background-color: var(--bg-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    fill: var(--fill-color);
+    height: 32px;
+    padding: 0;
+    width: 32px;
+  }
+
+  .colab-df-quickchart:hover {
+    background-color: var(--hover-bg-color);
+    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+    fill: var(--button-hover-fill-color);
+  }
+
+  .colab-df-quickchart-complete:disabled,
+  .colab-df-quickchart-complete:disabled:hover {
+    background-color: var(--disabled-bg-color);
+    fill: var(--disabled-fill-color);
+    box-shadow: none;
+  }
+
+  .colab-df-spinner {
+    border: 2px solid var(--fill-color);
+    border-color: transparent;
+    border-bottom-color: var(--fill-color);
+    animation:
+      spin 1s steps(1) infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+      border-left-color: var(--fill-color);
+    }
+    20% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    30% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+      border-right-color: var(--fill-color);
+    }
+    40% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    60% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+    }
+    80% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-bottom-color: var(--fill-color);
+    }
+    90% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+    }
+  }
+</style>
+
+  <script>
+    async function quickchart(key) {
+      const quickchartButtonEl =
+        document.querySelector('#' + key + ' button');
+      quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
+      quickchartButtonEl.classList.add('colab-df-spinner');
+      try {
+        const charts = await google.colab.kernel.invokeFunction(
+            'suggestCharts', [key], {});
+      } catch (error) {
+        console.error('Error during call to suggestCharts:', error);
+      }
+      quickchartButtonEl.classList.remove('colab-df-spinner');
+      quickchartButtonEl.classList.add('colab-df-quickchart-complete');
+    }
+    (() => {
+      let quickchartButtonEl =
+        document.querySelector('#df-4e8dfc92-d0db-40c8-a6f8-21d51f7289eb button');
+      quickchartButtonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+    })();
+  </script>
+</div>
+    </div>
+  </div>
+
+</div>
+</div>
+<div id="4783ff3a-018b-4679-a217-d8cc1a740c73" class="cell code"
+id="4783ff3a-018b-4679-a217-d8cc1a740c73"
+data-outputId="d28d0517-327e-4642-f3da-74a9f7e25503">
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>data1.info()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+RangeIndex: 1470 entries, 0 to 1469
+Data columns (total 35 columns):
+ #   Column                    Non-Null Count  Dtype 
+---  ------                    --------------  ----- 
+ 0   Age                       1470 non-null   int64 
+ 1   Attrition                 1470 non-null   object
+ 2   BusinessTravel            1470 non-null   object
+ 3   DailyRate                 1470 non-null   int64 
+ 4   Department                1470 non-null   object
+ 5   DistanceFromHome          1470 non-null   int64 
+ 6   Education                 1470 non-null   int64 
+ 7   EducationField            1470 non-null   object
+ 8   EmployeeCount             1470 non-null   int64 
+ 9   EmployeeNumber            1470 non-null   int64 
+ 10  EnvironmentSatisfaction   1470 non-null   int64 
+ 11  Gender                    1470 non-null   object
+ 12  HourlyRate                1470 non-null   int64 
+ 13  JobInvolvement            1470 non-null   int64 
+ 14  JobLevel                  1470 non-null   int64 
+ 15  JobRole                   1470 non-null   object
+ 16  JobSatisfaction           1470 non-null   int64 
+ 17  MaritalStatus             1470 non-null   object
+ 18  MonthlyIncome             1470 non-null   int64 
+ 19  MonthlyRate               1470 non-null   int64 
+ 20  NumCompaniesWorked        1470 non-null   int64 
+ 21  Over18                    1470 non-null   object
+ 22  OverTime                  1470 non-null   object
+ 23  PercentSalaryHike         1470 non-null   int64 
+ 24  PerformanceRating         1470 non-null   int64 
+ 25  RelationshipSatisfaction  1470 non-null   int64 
+ 26  StandardHours             1470 non-null   int64 
+ 27  StockOptionLevel          1470 non-null   int64 
+ 28  TotalWorkingYears         1470 non-null   int64 
+ 29  TrainingTimesLastYear     1470 non-null   int64 
+ 30  WorkLifeBalance           1470 non-null   int64 
+ 31  YearsAtCompany            1470 non-null   int64 
+ 32  YearsInCurrentRole        1470 non-null   int64 
+ 33  YearsSinceLastPromotion   1470 non-null   int64 
+ 34  YearsWithCurrManager      1470 non-null   int64 
+dtypes: int64(26), object(9)
+memory usage: 402.1+ KB
+</code></pre>
+</div>
+</div>
+<div id="6f417fe5-7160-4101-9452-7fd2f75d62ee" class="cell code"
+id="6f417fe5-7160-4101-9452-7fd2f75d62ee"
+data-outputId="fa670470-3c68-4c7e-8ff8-6ef10497ca7e">
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>data1.isnull().<span class="bu">sum</span>()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="6">
+<pre><code>Age                         0
+Attrition                   0
+BusinessTravel              0
+DailyRate                   0
+Department                  0
+DistanceFromHome            0
+Education                   0
+EducationField              0
+EmployeeCount               0
+EmployeeNumber              0
+EnvironmentSatisfaction     0
+Gender                      0
+HourlyRate                  0
+JobInvolvement              0
+JobLevel                    0
+JobRole                     0
+JobSatisfaction             0
+MaritalStatus               0
+MonthlyIncome               0
+MonthlyRate                 0
+NumCompaniesWorked          0
+Over18                      0
+OverTime                    0
+PercentSalaryHike           0
+PerformanceRating           0
+RelationshipSatisfaction    0
+StandardHours               0
+StockOptionLevel            0
+TotalWorkingYears           0
+TrainingTimesLastYear       0
+WorkLifeBalance             0
+YearsAtCompany              0
+YearsInCurrentRole          0
+YearsSinceLastPromotion     0
+YearsWithCurrManager        0
+dtype: int64</code></pre>
+</div>
+</div>
+<div id="656d931a-bda0-47e8-ad20-70672d1016ff" class="cell code"
+id="656d931a-bda0-47e8-ad20-70672d1016ff"
+data-outputId="bbb217b4-a698-4045-e90c-90ac544326d8">
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>data1.corr()</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>C:\Users\Asus\AppData\Local\Temp\ipykernel_23868\2627137660.py:1: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  data.corr()
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="7">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Age</th>
+      <th>DailyRate</th>
+      <th>DistanceFromHome</th>
+      <th>Education</th>
+      <th>EmployeeCount</th>
+      <th>EmployeeNumber</th>
+      <th>EnvironmentSatisfaction</th>
+      <th>HourlyRate</th>
+      <th>JobInvolvement</th>
+      <th>JobLevel</th>
+      <th>...</th>
+      <th>RelationshipSatisfaction</th>
+      <th>StandardHours</th>
+      <th>StockOptionLevel</th>
+      <th>TotalWorkingYears</th>
+      <th>TrainingTimesLastYear</th>
+      <th>WorkLifeBalance</th>
+      <th>YearsAtCompany</th>
+      <th>YearsInCurrentRole</th>
+      <th>YearsSinceLastPromotion</th>
+      <th>YearsWithCurrManager</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Age</th>
+      <td>1.000000</td>
+      <td>0.010661</td>
+      <td>-0.001686</td>
+      <td>0.208034</td>
+      <td>NaN</td>
+      <td>-0.010145</td>
+      <td>0.010146</td>
+      <td>0.024287</td>
+      <td>0.029820</td>
+      <td>0.509604</td>
+      <td>...</td>
+      <td>0.053535</td>
+      <td>NaN</td>
+      <td>0.037510</td>
+      <td>0.680381</td>
+      <td>-0.019621</td>
+      <td>-0.021490</td>
+      <td>0.311309</td>
+      <td>0.212901</td>
+      <td>0.216513</td>
+      <td>0.202089</td>
+    </tr>
+    <tr>
+      <th>DailyRate</th>
+      <td>0.010661</td>
+      <td>1.000000</td>
+      <td>-0.004985</td>
+      <td>-0.016806</td>
+      <td>NaN</td>
+      <td>-0.050990</td>
+      <td>0.018355</td>
+      <td>0.023381</td>
+      <td>0.046135</td>
+      <td>0.002966</td>
+      <td>...</td>
+      <td>0.007846</td>
+      <td>NaN</td>
+      <td>0.042143</td>
+      <td>0.014515</td>
+      <td>0.002453</td>
+      <td>-0.037848</td>
+      <td>-0.034055</td>
+      <td>0.009932</td>
+      <td>-0.033229</td>
+      <td>-0.026363</td>
+    </tr>
+    <tr>
+      <th>DistanceFromHome</th>
+      <td>-0.001686</td>
+      <td>-0.004985</td>
+      <td>1.000000</td>
+      <td>0.021042</td>
+      <td>NaN</td>
+      <td>0.032916</td>
+      <td>-0.016075</td>
+      <td>0.031131</td>
+      <td>0.008783</td>
+      <td>0.005303</td>
+      <td>...</td>
+      <td>0.006557</td>
+      <td>NaN</td>
+      <td>0.044872</td>
+      <td>0.004628</td>
+      <td>-0.036942</td>
+      <td>-0.026556</td>
+      <td>0.009508</td>
+      <td>0.018845</td>
+      <td>0.010029</td>
+      <td>0.014406</td>
+    </tr>
+    <tr>
+      <th>Education</th>
+      <td>0.208034</td>
+      <td>-0.016806</td>
+      <td>0.021042</td>
+      <td>1.000000</td>
+      <td>NaN</td>
+      <td>0.042070</td>
+      <td>-0.027128</td>
+      <td>0.016775</td>
+      <td>0.042438</td>
+      <td>0.101589</td>
+      <td>...</td>
+      <td>-0.009118</td>
+      <td>NaN</td>
+      <td>0.018422</td>
+      <td>0.148280</td>
+      <td>-0.025100</td>
+      <td>0.009819</td>
+      <td>0.069114</td>
+      <td>0.060236</td>
+      <td>0.054254</td>
+      <td>0.069065</td>
+    </tr>
+    <tr>
+      <th>EmployeeCount</th>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>EmployeeNumber</th>
+      <td>-0.010145</td>
+      <td>-0.050990</td>
+      <td>0.032916</td>
+      <td>0.042070</td>
+      <td>NaN</td>
+      <td>1.000000</td>
+      <td>0.017621</td>
+      <td>0.035179</td>
+      <td>-0.006888</td>
+      <td>-0.018519</td>
+      <td>...</td>
+      <td>-0.069861</td>
+      <td>NaN</td>
+      <td>0.062227</td>
+      <td>-0.014365</td>
+      <td>0.023603</td>
+      <td>0.010309</td>
+      <td>-0.011240</td>
+      <td>-0.008416</td>
+      <td>-0.009019</td>
+      <td>-0.009197</td>
+    </tr>
+    <tr>
+      <th>EnvironmentSatisfaction</th>
+      <td>0.010146</td>
+      <td>0.018355</td>
+      <td>-0.016075</td>
+      <td>-0.027128</td>
+      <td>NaN</td>
+      <td>0.017621</td>
+      <td>1.000000</td>
+      <td>-0.049857</td>
+      <td>-0.008278</td>
+      <td>0.001212</td>
+      <td>...</td>
+      <td>0.007665</td>
+      <td>NaN</td>
+      <td>0.003432</td>
+      <td>-0.002693</td>
+      <td>-0.019359</td>
+      <td>0.027627</td>
+      <td>0.001458</td>
+      <td>0.018007</td>
+      <td>0.016194</td>
+      <td>-0.004999</td>
+    </tr>
+    <tr>
+      <th>HourlyRate</th>
+      <td>0.024287</td>
+      <td>0.023381</td>
+      <td>0.031131</td>
+      <td>0.016775</td>
+      <td>NaN</td>
+      <td>0.035179</td>
+      <td>-0.049857</td>
+      <td>1.000000</td>
+      <td>0.042861</td>
+      <td>-0.027853</td>
+      <td>...</td>
+      <td>0.001330</td>
+      <td>NaN</td>
+      <td>0.050263</td>
+      <td>-0.002334</td>
+      <td>-0.008548</td>
+      <td>-0.004607</td>
+      <td>-0.019582</td>
+      <td>-0.024106</td>
+      <td>-0.026716</td>
+      <td>-0.020123</td>
+    </tr>
+    <tr>
+      <th>JobInvolvement</th>
+      <td>0.029820</td>
+      <td>0.046135</td>
+      <td>0.008783</td>
+      <td>0.042438</td>
+      <td>NaN</td>
+      <td>-0.006888</td>
+      <td>-0.008278</td>
+      <td>0.042861</td>
+      <td>1.000000</td>
+      <td>-0.012630</td>
+      <td>...</td>
+      <td>0.034297</td>
+      <td>NaN</td>
+      <td>0.021523</td>
+      <td>-0.005533</td>
+      <td>-0.015338</td>
+      <td>-0.014617</td>
+      <td>-0.021355</td>
+      <td>0.008717</td>
+      <td>-0.024184</td>
+      <td>0.025976</td>
+    </tr>
+    <tr>
+      <th>JobLevel</th>
+      <td>0.509604</td>
+      <td>0.002966</td>
+      <td>0.005303</td>
+      <td>0.101589</td>
+      <td>NaN</td>
+      <td>-0.018519</td>
+      <td>0.001212</td>
+      <td>-0.027853</td>
+      <td>-0.012630</td>
+      <td>1.000000</td>
+      <td>...</td>
+      <td>0.021642</td>
+      <td>NaN</td>
+      <td>0.013984</td>
+      <td>0.782208</td>
+      <td>-0.018191</td>
+      <td>0.037818</td>
+      <td>0.534739</td>
+      <td>0.389447</td>
+      <td>0.353885</td>
+      <td>0.375281</td>
+    </tr>
+    <tr>
+      <th>JobSatisfaction</th>
+      <td>-0.004892</td>
+      <td>0.030571</td>
+      <td>-0.003669</td>
+      <td>-0.011296</td>
+      <td>NaN</td>
+      <td>-0.046247</td>
+      <td>-0.006784</td>
+      <td>-0.071335</td>
+      <td>-0.021476</td>
+      <td>-0.001944</td>
+      <td>...</td>
+      <td>-0.012454</td>
+      <td>NaN</td>
+      <td>0.010690</td>
+      <td>-0.020185</td>
+      <td>-0.005779</td>
+      <td>-0.019459</td>
+      <td>-0.003803</td>
+      <td>-0.002305</td>
+      <td>-0.018214</td>
+      <td>-0.027656</td>
+    </tr>
+    <tr>
+      <th>MonthlyIncome</th>
+      <td>0.497855</td>
+      <td>0.007707</td>
+      <td>-0.017014</td>
+      <td>0.094961</td>
+      <td>NaN</td>
+      <td>-0.014829</td>
+      <td>-0.006259</td>
+      <td>-0.015794</td>
+      <td>-0.015271</td>
+      <td>0.950300</td>
+      <td>...</td>
+      <td>0.025873</td>
+      <td>NaN</td>
+      <td>0.005408</td>
+      <td>0.772893</td>
+      <td>-0.021736</td>
+      <td>0.030683</td>
+      <td>0.514285</td>
+      <td>0.363818</td>
+      <td>0.344978</td>
+      <td>0.344079</td>
+    </tr>
+    <tr>
+      <th>MonthlyRate</th>
+      <td>0.028051</td>
+      <td>-0.032182</td>
+      <td>0.027473</td>
+      <td>-0.026084</td>
+      <td>NaN</td>
+      <td>0.012648</td>
+      <td>0.037600</td>
+      <td>-0.015297</td>
+      <td>-0.016322</td>
+      <td>0.039563</td>
+      <td>...</td>
+      <td>-0.004085</td>
+      <td>NaN</td>
+      <td>-0.034323</td>
+      <td>0.026442</td>
+      <td>0.001467</td>
+      <td>0.007963</td>
+      <td>-0.023655</td>
+      <td>-0.012815</td>
+      <td>0.001567</td>
+      <td>-0.036746</td>
+    </tr>
+    <tr>
+      <th>NumCompaniesWorked</th>
+      <td>0.299635</td>
+      <td>0.038153</td>
+      <td>-0.029251</td>
+      <td>0.126317</td>
+      <td>NaN</td>
+      <td>-0.001251</td>
+      <td>0.012594</td>
+      <td>0.022157</td>
+      <td>0.015012</td>
+      <td>0.142501</td>
+      <td>...</td>
+      <td>0.052733</td>
+      <td>NaN</td>
+      <td>0.030075</td>
+      <td>0.237639</td>
+      <td>-0.066054</td>
+      <td>-0.008366</td>
+      <td>-0.118421</td>
+      <td>-0.090754</td>
+      <td>-0.036814</td>
+      <td>-0.110319</td>
+    </tr>
+    <tr>
+      <th>PercentSalaryHike</th>
+      <td>0.003634</td>
+      <td>0.022704</td>
+      <td>0.040235</td>
+      <td>-0.011111</td>
+      <td>NaN</td>
+      <td>-0.012944</td>
+      <td>-0.031701</td>
+      <td>-0.009062</td>
+      <td>-0.017205</td>
+      <td>-0.034730</td>
+      <td>...</td>
+      <td>-0.040490</td>
+      <td>NaN</td>
+      <td>0.007528</td>
+      <td>-0.020608</td>
+      <td>-0.005221</td>
+      <td>-0.003280</td>
+      <td>-0.035991</td>
+      <td>-0.001520</td>
+      <td>-0.022154</td>
+      <td>-0.011985</td>
+    </tr>
+    <tr>
+      <th>PerformanceRating</th>
+      <td>0.001904</td>
+      <td>0.000473</td>
+      <td>0.027110</td>
+      <td>-0.024539</td>
+      <td>NaN</td>
+      <td>-0.020359</td>
+      <td>-0.029548</td>
+      <td>-0.002172</td>
+      <td>-0.029071</td>
+      <td>-0.021222</td>
+      <td>...</td>
+      <td>-0.031351</td>
+      <td>NaN</td>
+      <td>0.003506</td>
+      <td>0.006744</td>
+      <td>-0.015579</td>
+      <td>0.002572</td>
+      <td>0.003435</td>
+      <td>0.034986</td>
+      <td>0.017896</td>
+      <td>0.022827</td>
+    </tr>
+    <tr>
+      <th>RelationshipSatisfaction</th>
+      <td>0.053535</td>
+      <td>0.007846</td>
+      <td>0.006557</td>
+      <td>-0.009118</td>
+      <td>NaN</td>
+      <td>-0.069861</td>
+      <td>0.007665</td>
+      <td>0.001330</td>
+      <td>0.034297</td>
+      <td>0.021642</td>
+      <td>...</td>
+      <td>1.000000</td>
+      <td>NaN</td>
+      <td>-0.045952</td>
+      <td>0.024054</td>
+      <td>0.002497</td>
+      <td>0.019604</td>
+      <td>0.019367</td>
+      <td>-0.015123</td>
+      <td>0.033493</td>
+      <td>-0.000867</td>
+    </tr>
+    <tr>
+      <th>StandardHours</th>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>StockOptionLevel</th>
+      <td>0.037510</td>
+      <td>0.042143</td>
+      <td>0.044872</td>
+      <td>0.018422</td>
+      <td>NaN</td>
+      <td>0.062227</td>
+      <td>0.003432</td>
+      <td>0.050263</td>
+      <td>0.021523</td>
+      <td>0.013984</td>
+      <td>...</td>
+      <td>-0.045952</td>
+      <td>NaN</td>
+      <td>1.000000</td>
+      <td>0.010136</td>
+      <td>0.011274</td>
+      <td>0.004129</td>
+      <td>0.015058</td>
+      <td>0.050818</td>
+      <td>0.014352</td>
+      <td>0.024698</td>
+    </tr>
+    <tr>
+      <th>TotalWorkingYears</th>
+      <td>0.680381</td>
+      <td>0.014515</td>
+      <td>0.004628</td>
+      <td>0.148280</td>
+      <td>NaN</td>
+      <td>-0.014365</td>
+      <td>-0.002693</td>
+      <td>-0.002334</td>
+      <td>-0.005533</td>
+      <td>0.782208</td>
+      <td>...</td>
+      <td>0.024054</td>
+      <td>NaN</td>
+      <td>0.010136</td>
+      <td>1.000000</td>
+      <td>-0.035662</td>
+      <td>0.001008</td>
+      <td>0.628133</td>
+      <td>0.460365</td>
+      <td>0.404858</td>
+      <td>0.459188</td>
+    </tr>
+    <tr>
+      <th>TrainingTimesLastYear</th>
+      <td>-0.019621</td>
+      <td>0.002453</td>
+      <td>-0.036942</td>
+      <td>-0.025100</td>
+      <td>NaN</td>
+      <td>0.023603</td>
+      <td>-0.019359</td>
+      <td>-0.008548</td>
+      <td>-0.015338</td>
+      <td>-0.018191</td>
+      <td>...</td>
+      <td>0.002497</td>
+      <td>NaN</td>
+      <td>0.011274</td>
+      <td>-0.035662</td>
+      <td>1.000000</td>
+      <td>0.028072</td>
+      <td>0.003569</td>
+      <td>-0.005738</td>
+      <td>-0.002067</td>
+      <td>-0.004096</td>
+    </tr>
+    <tr>
+      <th>WorkLifeBalance</th>
+      <td>-0.021490</td>
+      <td>-0.037848</td>
+      <td>-0.026556</td>
+      <td>0.009819</td>
+      <td>NaN</td>
+      <td>0.010309</td>
+      <td>0.027627</td>
+      <td>-0.004607</td>
+      <td>-0.014617</td>
+      <td>0.037818</td>
+      <td>...</td>
+      <td>0.019604</td>
+      <td>NaN</td>
+      <td>0.004129</td>
+      <td>0.001008</td>
+      <td>0.028072</td>
+      <td>1.000000</td>
+      <td>0.012089</td>
+      <td>0.049856</td>
+      <td>0.008941</td>
+      <td>0.002759</td>
+    </tr>
+    <tr>
+      <th>YearsAtCompany</th>
+      <td>0.311309</td>
+      <td>-0.034055</td>
+      <td>0.009508</td>
+      <td>0.069114</td>
+      <td>NaN</td>
+      <td>-0.011240</td>
+      <td>0.001458</td>
+      <td>-0.019582</td>
+      <td>-0.021355</td>
+      <td>0.534739</td>
+      <td>...</td>
+      <td>0.019367</td>
+      <td>NaN</td>
+      <td>0.015058</td>
+      <td>0.628133</td>
+      <td>0.003569</td>
+      <td>0.012089</td>
+      <td>1.000000</td>
+      <td>0.758754</td>
+      <td>0.618409</td>
+      <td>0.769212</td>
+    </tr>
+    <tr>
+      <th>YearsInCurrentRole</th>
+      <td>0.212901</td>
+      <td>0.009932</td>
+      <td>0.018845</td>
+      <td>0.060236</td>
+      <td>NaN</td>
+      <td>-0.008416</td>
+      <td>0.018007</td>
+      <td>-0.024106</td>
+      <td>0.008717</td>
+      <td>0.389447</td>
+      <td>...</td>
+      <td>-0.015123</td>
+      <td>NaN</td>
+      <td>0.050818</td>
+      <td>0.460365</td>
+      <td>-0.005738</td>
+      <td>0.049856</td>
+      <td>0.758754</td>
+      <td>1.000000</td>
+      <td>0.548056</td>
+      <td>0.714365</td>
+    </tr>
+    <tr>
+      <th>YearsSinceLastPromotion</th>
+      <td>0.216513</td>
+      <td>-0.033229</td>
+      <td>0.010029</td>
+      <td>0.054254</td>
+      <td>NaN</td>
+      <td>-0.009019</td>
+      <td>0.016194</td>
+      <td>-0.026716</td>
+      <td>-0.024184</td>
+      <td>0.353885</td>
+      <td>...</td>
+      <td>0.033493</td>
+      <td>NaN</td>
+      <td>0.014352</td>
+      <td>0.404858</td>
+      <td>-0.002067</td>
+      <td>0.008941</td>
+      <td>0.618409</td>
+      <td>0.548056</td>
+      <td>1.000000</td>
+      <td>0.510224</td>
+    </tr>
+    <tr>
+      <th>YearsWithCurrManager</th>
+      <td>0.202089</td>
+      <td>-0.026363</td>
+      <td>0.014406</td>
+      <td>0.069065</td>
+      <td>NaN</td>
+      <td>-0.009197</td>
+      <td>-0.004999</td>
+      <td>-0.020123</td>
+      <td>0.025976</td>
+      <td>0.375281</td>
+      <td>...</td>
+      <td>-0.000867</td>
+      <td>NaN</td>
+      <td>0.024698</td>
+      <td>0.459188</td>
+      <td>-0.004096</td>
+      <td>0.002759</td>
+      <td>0.769212</td>
+      <td>0.714365</td>
+      <td>0.510224</td>
+      <td>1.000000</td>
+    </tr>
+  </tbody>
+</table>
+<p>26 rows × 26 columns</p>
+</div>
+</div>
+</div>
+<div id="415482c1-d716-4784-8790-25b96d9b5d57" class="cell code"
+id="415482c1-d716-4784-8790-25b96d9b5d57"
+data-outputId="43bf5b62-45c2-4479-fd20-95d6b777220a"
+data-scrolled="true">
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize <span class="op">=</span>(<span class="dv">24</span>,<span class="dv">24</span>))</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>sns.heatmap(data.corr(),annot <span class="op">=</span> <span class="va">True</span>,cmap <span class="op">=</span> <span class="st">&quot;YlGnBu&quot;</span>)</span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>C:\Users\Asus\AppData\Local\Temp\ipykernel_23868\2009265951.py:2: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  sns.heatmap(data.corr(),annot = True,cmap = &quot;YlGnBu&quot;)
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_4521e713796842788f55d40e749bb8ba/104f5bf74af8af151eed6ece0bd11f3e6d92c2df.png" /></p>
+</div>
+</div>
+<div id="ee63ce51" class="cell code" id="ee63ce51">
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>data1 <span class="op">=</span> data.drop(columns <span class="op">=</span> [<span class="st">&#39;EmployeeCount&#39;</span>,<span class="st">&#39;StandardHours&#39;</span>,<span class="st">&#39;EmployeeNumber&#39;</span>])</span></code></pre></div>
+</div>
+<div id="1c757e5e" class="cell code" id="1c757e5e"
+data-outputId="2e6b5056-23da-4f8d-8d56-745f62a0e44c">
+<div class="sourceCode" id="cb15"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>data1.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="10">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Age</th>
+      <th>Attrition</th>
+      <th>BusinessTravel</th>
+      <th>DailyRate</th>
+      <th>Department</th>
+      <th>DistanceFromHome</th>
+      <th>Education</th>
+      <th>EducationField</th>
+      <th>EnvironmentSatisfaction</th>
+      <th>Gender</th>
+      <th>...</th>
+      <th>PerformanceRating</th>
+      <th>RelationshipSatisfaction</th>
+      <th>StockOptionLevel</th>
+      <th>TotalWorkingYears</th>
+      <th>TrainingTimesLastYear</th>
+      <th>WorkLifeBalance</th>
+      <th>YearsAtCompany</th>
+      <th>YearsInCurrentRole</th>
+      <th>YearsSinceLastPromotion</th>
+      <th>YearsWithCurrManager</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>41</td>
+      <td>Yes</td>
+      <td>Travel_Rarely</td>
+      <td>1102</td>
+      <td>Sales</td>
+      <td>1</td>
+      <td>2</td>
+      <td>Life Sciences</td>
+      <td>2</td>
+      <td>Female</td>
+      <td>...</td>
+      <td>3</td>
+      <td>1</td>
+      <td>0</td>
+      <td>8</td>
+      <td>0</td>
+      <td>1</td>
+      <td>6</td>
+      <td>4</td>
+      <td>0</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>49</td>
+      <td>No</td>
+      <td>Travel_Frequently</td>
+      <td>279</td>
+      <td>Research &amp; Development</td>
+      <td>8</td>
+      <td>1</td>
+      <td>Life Sciences</td>
+      <td>3</td>
+      <td>Male</td>
+      <td>...</td>
+      <td>4</td>
+      <td>4</td>
+      <td>1</td>
+      <td>10</td>
+      <td>3</td>
+      <td>3</td>
+      <td>10</td>
+      <td>7</td>
+      <td>1</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>37</td>
+      <td>Yes</td>
+      <td>Travel_Rarely</td>
+      <td>1373</td>
+      <td>Research &amp; Development</td>
+      <td>2</td>
+      <td>2</td>
+      <td>Other</td>
+      <td>4</td>
+      <td>Male</td>
+      <td>...</td>
+      <td>3</td>
+      <td>2</td>
+      <td>0</td>
+      <td>7</td>
+      <td>3</td>
+      <td>3</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>33</td>
+      <td>No</td>
+      <td>Travel_Frequently</td>
+      <td>1392</td>
+      <td>Research &amp; Development</td>
+      <td>3</td>
+      <td>4</td>
+      <td>Life Sciences</td>
+      <td>4</td>
+      <td>Female</td>
+      <td>...</td>
+      <td>3</td>
+      <td>3</td>
+      <td>0</td>
+      <td>8</td>
+      <td>3</td>
+      <td>3</td>
+      <td>8</td>
+      <td>7</td>
+      <td>3</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>27</td>
+      <td>No</td>
+      <td>Travel_Rarely</td>
+      <td>591</td>
+      <td>Research &amp; Development</td>
+      <td>2</td>
+      <td>1</td>
+      <td>Medical</td>
+      <td>1</td>
+      <td>Male</td>
+      <td>...</td>
+      <td>3</td>
+      <td>4</td>
+      <td>1</td>
+      <td>6</td>
+      <td>3</td>
+      <td>3</td>
+      <td>2</td>
+      <td>2</td>
+      <td>2</td>
+      <td>2</td>
+    </tr>
+  </tbody>
+</table>
+<p>5 rows × 32 columns</p>
+</div>
+</div>
+</div>
+<div id="1b9e1249" class="cell code" id="1b9e1249"
+data-outputId="9c189d6c-382c-4bf9-c6b5-fd4567406e41">
+<div class="sourceCode" id="cb16"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>attrition_count <span class="op">=</span> pd.DataFrame(data[<span class="st">&#39;Attrition&#39;</span>].value_counts())</span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>attrition_count</span></code></pre></div>
+<div class="output execute_result" data-execution_count="11">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Attrition</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>No</th>
+      <td>1233</td>
+    </tr>
+    <tr>
+      <th>Yes</th>
+      <td>237</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="5717ee39" class="cell code" id="5717ee39"
+data-outputId="37e18ab5-d631-4493-9cdb-aadddebd857e">
+<div class="sourceCode" id="cb17"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>plt.pie(attrition_count[<span class="st">&#39;Attrition&#39;</span>] , labels <span class="op">=</span> [<span class="st">&#39;No&#39;</span> , <span class="st">&#39;Yes&#39;</span>] , explode <span class="op">=</span> (<span class="fl">0.15</span>,<span class="dv">0</span>))</span></code></pre></div>
+<div class="output execute_result" data-execution_count="12">
+<pre><code>([&lt;matplotlib.patches.Wedge at 0x2014d52e6d0&gt;,
+  &lt;matplotlib.patches.Wedge at 0x2014f896610&gt;],
+ [Text(-1.0930587195656423, 0.606401381579494, &#39;No&#39;),
+  Text(0.961891673217765, -0.5336332157899547, &#39;Yes&#39;)])</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_4521e713796842788f55d40e749bb8ba/ea4c86b734d7b59f8670dd72600cf5847d75977a.png" /></p>
+</div>
+</div>
+<div id="f018579e" class="cell code" id="f018579e">
+<div class="sourceCode" id="cb19"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>attrition_dummies <span class="op">=</span> pd.get_dummies(data[<span class="st">&#39;Attrition&#39;</span>])</span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> pd.concat([data, attrition_dummies] , axis <span class="op">=</span> <span class="dv">1</span>)</span></code></pre></div>
+</div>
+<div id="c9e55dad" class="cell code" id="c9e55dad">
+<div class="sourceCode" id="cb20"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>data1 <span class="op">=</span> data.drop([<span class="st">&#39;Attrition&#39;</span>,<span class="st">&#39;No&#39;</span>],axis <span class="op">=</span> <span class="dv">1</span>)</span></code></pre></div>
+</div>
+<div id="b23e6ab0" class="cell code" id="b23e6ab0"
+data-outputId="7b1fdb18-f822-4a72-8610-2307ab5fe7f7">
+<div class="sourceCode" id="cb21"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>data1.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="15">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Age</th>
+      <th>BusinessTravel</th>
+      <th>DailyRate</th>
+      <th>Department</th>
+      <th>DistanceFromHome</th>
+      <th>Education</th>
+      <th>EducationField</th>
+      <th>EnvironmentSatisfaction</th>
+      <th>Gender</th>
+      <th>HourlyRate</th>
+      <th>...</th>
+      <th>RelationshipSatisfaction</th>
+      <th>StockOptionLevel</th>
+      <th>TotalWorkingYears</th>
+      <th>TrainingTimesLastYear</th>
+      <th>WorkLifeBalance</th>
+      <th>YearsAtCompany</th>
+      <th>YearsInCurrentRole</th>
+      <th>YearsSinceLastPromotion</th>
+      <th>YearsWithCurrManager</th>
+      <th>Yes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>41</td>
+      <td>Travel_Rarely</td>
+      <td>1102</td>
+      <td>Sales</td>
+      <td>1</td>
+      <td>2</td>
+      <td>Life Sciences</td>
+      <td>2</td>
+      <td>Female</td>
+      <td>94</td>
+      <td>...</td>
+      <td>1</td>
+      <td>0</td>
+      <td>8</td>
+      <td>0</td>
+      <td>1</td>
+      <td>6</td>
+      <td>4</td>
+      <td>0</td>
+      <td>5</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>49</td>
+      <td>Travel_Frequently</td>
+      <td>279</td>
+      <td>Research &amp; Development</td>
+      <td>8</td>
+      <td>1</td>
+      <td>Life Sciences</td>
+      <td>3</td>
+      <td>Male</td>
+      <td>61</td>
+      <td>...</td>
+      <td>4</td>
+      <td>1</td>
+      <td>10</td>
+      <td>3</td>
+      <td>3</td>
+      <td>10</td>
+      <td>7</td>
+      <td>1</td>
+      <td>7</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>37</td>
+      <td>Travel_Rarely</td>
+      <td>1373</td>
+      <td>Research &amp; Development</td>
+      <td>2</td>
+      <td>2</td>
+      <td>Other</td>
+      <td>4</td>
+      <td>Male</td>
+      <td>92</td>
+      <td>...</td>
+      <td>2</td>
+      <td>0</td>
+      <td>7</td>
+      <td>3</td>
+      <td>3</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>33</td>
+      <td>Travel_Frequently</td>
+      <td>1392</td>
+      <td>Research &amp; Development</td>
+      <td>3</td>
+      <td>4</td>
+      <td>Life Sciences</td>
+      <td>4</td>
+      <td>Female</td>
+      <td>56</td>
+      <td>...</td>
+      <td>3</td>
+      <td>0</td>
+      <td>8</td>
+      <td>3</td>
+      <td>3</td>
+      <td>8</td>
+      <td>7</td>
+      <td>3</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>27</td>
+      <td>Travel_Rarely</td>
+      <td>591</td>
+      <td>Research &amp; Development</td>
+      <td>2</td>
+      <td>1</td>
+      <td>Medical</td>
+      <td>1</td>
+      <td>Male</td>
+      <td>40</td>
+      <td>...</td>
+      <td>4</td>
+      <td>1</td>
+      <td>6</td>
+      <td>3</td>
+      <td>3</td>
+      <td>2</td>
+      <td>2</td>
+      <td>2</td>
+      <td>2</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+<p>5 rows × 32 columns</p>
+</div>
+</div>
+</div>
+<div id="6edd795c" class="cell raw" id="6edd795c">
+
+</div>
+<div id="67ed040b" class="cell code" id="67ed040b">
+<div class="sourceCode" id="cb22"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.preprocessing <span class="im">import</span> LabelEncoder</span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>l <span class="op">=</span> LabelEncoder()</span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> columns <span class="kw">in</span> data.columns:</span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> data[columns].dtype <span class="op">==</span> [np.number,np.float64,np.int64]:</span>
+<span id="cb22-5"><a href="#cb22-5" aria-hidden="true" tabindex="-1"></a>        <span class="cf">continue</span></span>
+<span id="cb22-6"><a href="#cb22-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span>:</span>
+<span id="cb22-7"><a href="#cb22-7" aria-hidden="true" tabindex="-1"></a>        data[columns] <span class="op">=</span> l.fit_transform(data[columns])</span></code></pre></div>
+</div>
+<div id="1139f91b" class="cell markdown" id="1139f91b">
+<h2 id="spliting-dependent-and-independent-variables">Spliting dependent
+and independent variables</h2>
+</div>
+<div id="1bb8cfe9" class="cell code" id="1bb8cfe9">
+<div class="sourceCode" id="cb23"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> data[<span class="st">&#39;Yes&#39;</span>]</span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> data.drop([<span class="st">&#39;Yes&#39;</span>],axis <span class="op">=</span> <span class="dv">1</span>)</span></code></pre></div>
+</div>
+<div id="1f49a3ca" class="cell code" id="1f49a3ca"
+data-outputId="9367f473-4917-4dd4-90cb-d1d1d605ffaa">
+<div class="sourceCode" id="cb24"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>y.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="18">
+<pre><code>0    1
+1    0
+2    1
+3    0
+4    0
+Name: Yes, dtype: int64</code></pre>
+</div>
+</div>
+<div id="a666647d" class="cell code" id="a666647d"
+data-outputId="d8ad8184-c449-44c7-900c-86dcd3ab4438">
+<div class="sourceCode" id="cb26"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a>x.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="19">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Age</th>
+      <th>BusinessTravel</th>
+      <th>DailyRate</th>
+      <th>Department</th>
+      <th>DistanceFromHome</th>
+      <th>Education</th>
+      <th>EducationField</th>
+      <th>EnvironmentSatisfaction</th>
+      <th>Gender</th>
+      <th>HourlyRate</th>
+      <th>...</th>
+      <th>PerformanceRating</th>
+      <th>RelationshipSatisfaction</th>
+      <th>StockOptionLevel</th>
+      <th>TotalWorkingYears</th>
+      <th>TrainingTimesLastYear</th>
+      <th>WorkLifeBalance</th>
+      <th>YearsAtCompany</th>
+      <th>YearsInCurrentRole</th>
+      <th>YearsSinceLastPromotion</th>
+      <th>YearsWithCurrManager</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>23</td>
+      <td>2</td>
+      <td>624</td>
+      <td>2</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>64</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>8</td>
+      <td>0</td>
+      <td>0</td>
+      <td>6</td>
+      <td>4</td>
+      <td>0</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>31</td>
+      <td>1</td>
+      <td>113</td>
+      <td>1</td>
+      <td>7</td>
+      <td>0</td>
+      <td>1</td>
+      <td>2</td>
+      <td>1</td>
+      <td>31</td>
+      <td>...</td>
+      <td>1</td>
+      <td>3</td>
+      <td>1</td>
+      <td>10</td>
+      <td>3</td>
+      <td>2</td>
+      <td>10</td>
+      <td>7</td>
+      <td>1</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>19</td>
+      <td>2</td>
+      <td>805</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>4</td>
+      <td>3</td>
+      <td>1</td>
+      <td>62</td>
+      <td>...</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>7</td>
+      <td>3</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>15</td>
+      <td>1</td>
+      <td>820</td>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+      <td>1</td>
+      <td>3</td>
+      <td>0</td>
+      <td>26</td>
+      <td>...</td>
+      <td>0</td>
+      <td>2</td>
+      <td>0</td>
+      <td>8</td>
+      <td>3</td>
+      <td>2</td>
+      <td>8</td>
+      <td>7</td>
+      <td>3</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>9</td>
+      <td>2</td>
+      <td>312</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>3</td>
+      <td>0</td>
+      <td>1</td>
+      <td>10</td>
+      <td>...</td>
+      <td>0</td>
+      <td>3</td>
+      <td>1</td>
+      <td>6</td>
+      <td>3</td>
+      <td>2</td>
+      <td>2</td>
+      <td>2</td>
+      <td>2</td>
+      <td>2</td>
+    </tr>
+  </tbody>
+</table>
+<p>5 rows × 31 columns</p>
+</div>
+</div>
+</div>
+<div id="fa462e4c" class="cell markdown" id="fa462e4c">
+<h1 id="feature-scaling">Feature Scaling</h1>
+</div>
+<div id="94c6fbba" class="cell code" id="94c6fbba"
+data-outputId="b634b76c-a468-413a-fb0c-db815ccbfe6c">
+<div class="sourceCode" id="cb27"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.preprocessing <span class="im">import</span> MinMaxScaler</span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a>ms <span class="op">=</span> MinMaxScaler()</span>
+<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a>x_Scaled <span class="op">=</span> pd.DataFrame(ms.fit_transform(x),columns<span class="op">=</span>x.columns)</span>
+<span id="cb27-4"><a href="#cb27-4" aria-hidden="true" tabindex="-1"></a>x_Scaled.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="20">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Age</th>
+      <th>BusinessTravel</th>
+      <th>DailyRate</th>
+      <th>Department</th>
+      <th>DistanceFromHome</th>
+      <th>Education</th>
+      <th>EducationField</th>
+      <th>EnvironmentSatisfaction</th>
+      <th>Gender</th>
+      <th>HourlyRate</th>
+      <th>...</th>
+      <th>PerformanceRating</th>
+      <th>RelationshipSatisfaction</th>
+      <th>StockOptionLevel</th>
+      <th>TotalWorkingYears</th>
+      <th>TrainingTimesLastYear</th>
+      <th>WorkLifeBalance</th>
+      <th>YearsAtCompany</th>
+      <th>YearsInCurrentRole</th>
+      <th>YearsSinceLastPromotion</th>
+      <th>YearsWithCurrManager</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>0.547619</td>
+      <td>1.0</td>
+      <td>0.705085</td>
+      <td>1.0</td>
+      <td>0.000000</td>
+      <td>0.25</td>
+      <td>0.2</td>
+      <td>0.333333</td>
+      <td>0.0</td>
+      <td>0.914286</td>
+      <td>...</td>
+      <td>0.0</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.205128</td>
+      <td>0.0</td>
+      <td>0.000000</td>
+      <td>0.166667</td>
+      <td>0.222222</td>
+      <td>0.000000</td>
+      <td>0.294118</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>0.738095</td>
+      <td>0.5</td>
+      <td>0.127684</td>
+      <td>0.5</td>
+      <td>0.250000</td>
+      <td>0.00</td>
+      <td>0.2</td>
+      <td>0.666667</td>
+      <td>1.0</td>
+      <td>0.442857</td>
+      <td>...</td>
+      <td>1.0</td>
+      <td>1.000000</td>
+      <td>0.333333</td>
+      <td>0.256410</td>
+      <td>0.5</td>
+      <td>0.666667</td>
+      <td>0.277778</td>
+      <td>0.388889</td>
+      <td>0.066667</td>
+      <td>0.411765</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>0.452381</td>
+      <td>1.0</td>
+      <td>0.909605</td>
+      <td>0.5</td>
+      <td>0.035714</td>
+      <td>0.25</td>
+      <td>0.8</td>
+      <td>1.000000</td>
+      <td>1.0</td>
+      <td>0.885714</td>
+      <td>...</td>
+      <td>0.0</td>
+      <td>0.333333</td>
+      <td>0.000000</td>
+      <td>0.179487</td>
+      <td>0.5</td>
+      <td>0.666667</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>0.357143</td>
+      <td>0.5</td>
+      <td>0.926554</td>
+      <td>0.5</td>
+      <td>0.071429</td>
+      <td>0.75</td>
+      <td>0.2</td>
+      <td>1.000000</td>
+      <td>0.0</td>
+      <td>0.371429</td>
+      <td>...</td>
+      <td>0.0</td>
+      <td>0.666667</td>
+      <td>0.000000</td>
+      <td>0.205128</td>
+      <td>0.5</td>
+      <td>0.666667</td>
+      <td>0.222222</td>
+      <td>0.388889</td>
+      <td>0.200000</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>0.214286</td>
+      <td>1.0</td>
+      <td>0.352542</td>
+      <td>0.5</td>
+      <td>0.035714</td>
+      <td>0.00</td>
+      <td>0.6</td>
+      <td>0.000000</td>
+      <td>1.0</td>
+      <td>0.142857</td>
+      <td>...</td>
+      <td>0.0</td>
+      <td>1.000000</td>
+      <td>0.333333</td>
+      <td>0.153846</td>
+      <td>0.5</td>
+      <td>0.666667</td>
+      <td>0.055556</td>
+      <td>0.111111</td>
+      <td>0.133333</td>
+      <td>0.117647</td>
+    </tr>
+  </tbody>
+</table>
+<p>5 rows × 31 columns</p>
+</div>
+</div>
+</div>
+<div id="688b0c59" class="cell markdown" id="688b0c59">
+<h1 id="train-and-test-data-split">Train and Test data Split</h1>
+</div>
+<div id="34e3d9ae" class="cell code" id="34e3d9ae">
+<div class="sourceCode" id="cb28"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> train_test_split</span></code></pre></div>
+</div>
+<div id="ed2b65d9" class="cell code" id="ed2b65d9">
+<div class="sourceCode" id="cb29"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a>xtrain,xtest,ytrain,ytest <span class="op">=</span> train_test_split(x_Scaled,y,test_size <span class="op">=</span> <span class="fl">0.2</span>,random_state <span class="op">=</span> <span class="dv">0</span>)</span></code></pre></div>
+</div>
+<div id="31433b9d" class="cell markdown" id="31433b9d">
+<h1 id="logistic-regression">Logistic Regression</h1>
+</div>
+<div id="a8c520c1" class="cell code" id="a8c520c1">
+<div class="sourceCode" id="cb30"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.linear_model <span class="im">import</span> LogisticRegression</span>
+<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-3"><a href="#cb30-3" aria-hidden="true" tabindex="-1"></a>lr <span class="op">=</span> LogisticRegression()</span></code></pre></div>
+</div>
+<div id="1e229350" class="cell code" id="1e229350"
+data-outputId="28bffc5f-e723-4c2b-f465-fa19048b7d76">
+<div class="sourceCode" id="cb31"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a>lr.fit(xtrain,ytrain)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="24">
+<style>#sk-container-id-1 {color: black;}#sk-container-id-1 pre{padding: 0;}#sk-container-id-1 div.sk-toggleable {background-color: white;}#sk-container-id-1 label.sk-toggleable__label {cursor: pointer;display: block;width: 100%;margin-bottom: 0;padding: 0.3em;box-sizing: border-box;text-align: center;}#sk-container-id-1 label.sk-toggleable__label-arrow:before {content: "▸";float: left;margin-right: 0.25em;color: #696969;}#sk-container-id-1 label.sk-toggleable__label-arrow:hover:before {color: black;}#sk-container-id-1 div.sk-estimator:hover label.sk-toggleable__label-arrow:before {color: black;}#sk-container-id-1 div.sk-toggleable__content {max-height: 0;max-width: 0;overflow: hidden;text-align: left;background-color: #f0f8ff;}#sk-container-id-1 div.sk-toggleable__content pre {margin: 0.2em;color: black;border-radius: 0.25em;background-color: #f0f8ff;}#sk-container-id-1 input.sk-toggleable__control:checked~div.sk-toggleable__content {max-height: 200px;max-width: 100%;overflow: auto;}#sk-container-id-1 input.sk-toggleable__control:checked~label.sk-toggleable__label-arrow:before {content: "▾";}#sk-container-id-1 div.sk-estimator input.sk-toggleable__control:checked~label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-1 div.sk-label input.sk-toggleable__control:checked~label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-1 input.sk-hidden--visually {border: 0;clip: rect(1px 1px 1px 1px);clip: rect(1px, 1px, 1px, 1px);height: 1px;margin: -1px;overflow: hidden;padding: 0;position: absolute;width: 1px;}#sk-container-id-1 div.sk-estimator {font-family: monospace;background-color: #f0f8ff;border: 1px dotted black;border-radius: 0.25em;box-sizing: border-box;margin-bottom: 0.5em;}#sk-container-id-1 div.sk-estimator:hover {background-color: #d4ebff;}#sk-container-id-1 div.sk-parallel-item::after {content: "";width: 100%;border-bottom: 1px solid gray;flex-grow: 1;}#sk-container-id-1 div.sk-label:hover label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-1 div.sk-serial::before {content: "";position: absolute;border-left: 1px solid gray;box-sizing: border-box;top: 0;bottom: 0;left: 50%;z-index: 0;}#sk-container-id-1 div.sk-serial {display: flex;flex-direction: column;align-items: center;background-color: white;padding-right: 0.2em;padding-left: 0.2em;position: relative;}#sk-container-id-1 div.sk-item {position: relative;z-index: 1;}#sk-container-id-1 div.sk-parallel {display: flex;align-items: stretch;justify-content: center;background-color: white;position: relative;}#sk-container-id-1 div.sk-item::before, #sk-container-id-1 div.sk-parallel-item::before {content: "";position: absolute;border-left: 1px solid gray;box-sizing: border-box;top: 0;bottom: 0;left: 50%;z-index: -1;}#sk-container-id-1 div.sk-parallel-item {display: flex;flex-direction: column;z-index: 1;position: relative;background-color: white;}#sk-container-id-1 div.sk-parallel-item:first-child::after {align-self: flex-end;width: 50%;}#sk-container-id-1 div.sk-parallel-item:last-child::after {align-self: flex-start;width: 50%;}#sk-container-id-1 div.sk-parallel-item:only-child::after {width: 0;}#sk-container-id-1 div.sk-dashed-wrapped {border: 1px dashed gray;margin: 0 0.4em 0.5em 0.4em;box-sizing: border-box;padding-bottom: 0.4em;background-color: white;}#sk-container-id-1 div.sk-label label {font-family: monospace;font-weight: bold;display: inline-block;line-height: 1.2em;}#sk-container-id-1 div.sk-label-container {text-align: center;}#sk-container-id-1 div.sk-container {/* jupyter's `normalize.less` sets `[hidden] { display: none; }` but bootstrap.min.css set `[hidden] { display: none !important; }` so we also need the `!important` here to be able to override the default hidden behavior on the sphinx rendered scikit-learn.org. See: https://github.com/scikit-learn/scikit-learn/issues/21755 */display: inline-block !important;position: relative;}#sk-container-id-1 div.sk-text-repr-fallback {display: none;}</style><div id="sk-container-id-1" class="sk-top-container"><div class="sk-text-repr-fallback"><pre>LogisticRegression()</pre><b>In a Jupyter environment, please rerun this cell to show the HTML representation or trust the notebook. <br />On GitHub, the HTML representation is unable to render, please try loading this page with nbviewer.org.</b></div><div class="sk-container" hidden><div class="sk-item"><div class="sk-estimator sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="sk-estimator-id-1" type="checkbox" checked><label for="sk-estimator-id-1" class="sk-toggleable__label sk-toggleable__label-arrow">LogisticRegression</label><div class="sk-toggleable__content"><pre>LogisticRegression()</pre></div></div></div></div></div>
+</div>
+</div>
+<div id="0b3e6e9a" class="cell code" id="0b3e6e9a">
+<div class="sourceCode" id="cb32"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a>lrpred <span class="op">=</span> lr.predict(xtest)</span></code></pre></div>
+</div>
+<div id="67cdd93f" class="cell code" id="67cdd93f">
+<div class="sourceCode" id="cb33"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> accuracy_score,confusion_matrix,classification_report,roc_auc_score,roc_curve</span></code></pre></div>
+</div>
+<div id="f8cd5c05" class="cell code" id="f8cd5c05"
+data-outputId="24e1449a-b56c-4e3e-b8a2-ecbd2a6cddfe">
+<div class="sourceCode" id="cb34"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a>accuracy_score(ytest,lrpred)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="27">
+<pre><code>0.8843537414965986</code></pre>
+</div>
+</div>
+<div id="2e986e12" class="cell code" id="2e986e12"
+data-outputId="8eea7c45-37e3-43d4-c742-fc0e27a12029">
+<div class="sourceCode" id="cb36"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a>confusion_matrix(ytest,lrpred)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="28">
+<pre><code>array([[242,   3],
+       [ 31,  18]], dtype=int64)</code></pre>
+</div>
+</div>
+<div id="325528bd" class="cell code" id="325528bd"
+data-outputId="c73aad7b-fd46-4506-d7c7-74846aaa2cb5">
+<div class="sourceCode" id="cb38"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(classification_report(ytest,lrpred))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>              precision    recall  f1-score   support
+
+           0       0.89      0.99      0.93       245
+           1       0.86      0.37      0.51        49
+
+    accuracy                           0.88       294
+   macro avg       0.87      0.68      0.72       294
+weighted avg       0.88      0.88      0.86       294
+
+</code></pre>
+</div>
+</div>
+<div id="28cf0221" class="cell markdown" id="28cf0221">
+<h1 id="decision-tree-classification">Decision Tree Classification</h1>
+</div>
+<div id="d01855c6" class="cell code" id="d01855c6">
+<div class="sourceCode" id="cb40"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.tree <span class="im">import</span> DecisionTreeClassifier</span>
+<span id="cb40-2"><a href="#cb40-2" aria-hidden="true" tabindex="-1"></a>dtc <span class="op">=</span> DecisionTreeClassifier()</span></code></pre></div>
+</div>
+<div id="afc3f92b" class="cell code" id="afc3f92b"
+data-outputId="6dae7765-4602-4b88-90a5-eded76b810f6">
+<div class="sourceCode" id="cb41"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a>dtc.fit(xtrain,ytrain)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="31">
+<style>#sk-container-id-2 {color: black;}#sk-container-id-2 pre{padding: 0;}#sk-container-id-2 div.sk-toggleable {background-color: white;}#sk-container-id-2 label.sk-toggleable__label {cursor: pointer;display: block;width: 100%;margin-bottom: 0;padding: 0.3em;box-sizing: border-box;text-align: center;}#sk-container-id-2 label.sk-toggleable__label-arrow:before {content: "▸";float: left;margin-right: 0.25em;color: #696969;}#sk-container-id-2 label.sk-toggleable__label-arrow:hover:before {color: black;}#sk-container-id-2 div.sk-estimator:hover label.sk-toggleable__label-arrow:before {color: black;}#sk-container-id-2 div.sk-toggleable__content {max-height: 0;max-width: 0;overflow: hidden;text-align: left;background-color: #f0f8ff;}#sk-container-id-2 div.sk-toggleable__content pre {margin: 0.2em;color: black;border-radius: 0.25em;background-color: #f0f8ff;}#sk-container-id-2 input.sk-toggleable__control:checked~div.sk-toggleable__content {max-height: 200px;max-width: 100%;overflow: auto;}#sk-container-id-2 input.sk-toggleable__control:checked~label.sk-toggleable__label-arrow:before {content: "▾";}#sk-container-id-2 div.sk-estimator input.sk-toggleable__control:checked~label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-2 div.sk-label input.sk-toggleable__control:checked~label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-2 input.sk-hidden--visually {border: 0;clip: rect(1px 1px 1px 1px);clip: rect(1px, 1px, 1px, 1px);height: 1px;margin: -1px;overflow: hidden;padding: 0;position: absolute;width: 1px;}#sk-container-id-2 div.sk-estimator {font-family: monospace;background-color: #f0f8ff;border: 1px dotted black;border-radius: 0.25em;box-sizing: border-box;margin-bottom: 0.5em;}#sk-container-id-2 div.sk-estimator:hover {background-color: #d4ebff;}#sk-container-id-2 div.sk-parallel-item::after {content: "";width: 100%;border-bottom: 1px solid gray;flex-grow: 1;}#sk-container-id-2 div.sk-label:hover label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-2 div.sk-serial::before {content: "";position: absolute;border-left: 1px solid gray;box-sizing: border-box;top: 0;bottom: 0;left: 50%;z-index: 0;}#sk-container-id-2 div.sk-serial {display: flex;flex-direction: column;align-items: center;background-color: white;padding-right: 0.2em;padding-left: 0.2em;position: relative;}#sk-container-id-2 div.sk-item {position: relative;z-index: 1;}#sk-container-id-2 div.sk-parallel {display: flex;align-items: stretch;justify-content: center;background-color: white;position: relative;}#sk-container-id-2 div.sk-item::before, #sk-container-id-2 div.sk-parallel-item::before {content: "";position: absolute;border-left: 1px solid gray;box-sizing: border-box;top: 0;bottom: 0;left: 50%;z-index: -1;}#sk-container-id-2 div.sk-parallel-item {display: flex;flex-direction: column;z-index: 1;position: relative;background-color: white;}#sk-container-id-2 div.sk-parallel-item:first-child::after {align-self: flex-end;width: 50%;}#sk-container-id-2 div.sk-parallel-item:last-child::after {align-self: flex-start;width: 50%;}#sk-container-id-2 div.sk-parallel-item:only-child::after {width: 0;}#sk-container-id-2 div.sk-dashed-wrapped {border: 1px dashed gray;margin: 0 0.4em 0.5em 0.4em;box-sizing: border-box;padding-bottom: 0.4em;background-color: white;}#sk-container-id-2 div.sk-label label {font-family: monospace;font-weight: bold;display: inline-block;line-height: 1.2em;}#sk-container-id-2 div.sk-label-container {text-align: center;}#sk-container-id-2 div.sk-container {/* jupyter's `normalize.less` sets `[hidden] { display: none; }` but bootstrap.min.css set `[hidden] { display: none !important; }` so we also need the `!important` here to be able to override the default hidden behavior on the sphinx rendered scikit-learn.org. See: https://github.com/scikit-learn/scikit-learn/issues/21755 */display: inline-block !important;position: relative;}#sk-container-id-2 div.sk-text-repr-fallback {display: none;}</style><div id="sk-container-id-2" class="sk-top-container"><div class="sk-text-repr-fallback"><pre>DecisionTreeClassifier()</pre><b>In a Jupyter environment, please rerun this cell to show the HTML representation or trust the notebook. <br />On GitHub, the HTML representation is unable to render, please try loading this page with nbviewer.org.</b></div><div class="sk-container" hidden><div class="sk-item"><div class="sk-estimator sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="sk-estimator-id-2" type="checkbox" checked><label for="sk-estimator-id-2" class="sk-toggleable__label sk-toggleable__label-arrow">DecisionTreeClassifier</label><div class="sk-toggleable__content"><pre>DecisionTreeClassifier()</pre></div></div></div></div></div>
+</div>
+</div>
+<div id="9938b82b" class="cell code" id="9938b82b">
+<div class="sourceCode" id="cb42"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a>dtcpred <span class="op">=</span> dtc.predict(xtest)</span></code></pre></div>
+</div>
+<div id="de458975" class="cell code" id="de458975"
+data-outputId="ee2f4103-37ba-4e54-ac4c-1324e493494d">
+<div class="sourceCode" id="cb43"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb43-1"><a href="#cb43-1" aria-hidden="true" tabindex="-1"></a>accuracy_score(ytest,dtcpred)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="33">
+<pre><code>0.7653061224489796</code></pre>
+</div>
+</div>
+<div id="81b87d20" class="cell code" id="81b87d20"
+data-outputId="21d58952-ca17-4e94-c0ac-1233c02baa46">
+<div class="sourceCode" id="cb45"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb45-1"><a href="#cb45-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(classification_report(ytest,dtcpred))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>              precision    recall  f1-score   support
+
+           0       0.86      0.85      0.86       245
+           1       0.31      0.33      0.32        49
+
+    accuracy                           0.77       294
+   macro avg       0.59      0.59      0.59       294
+weighted avg       0.77      0.77      0.77       294
+
+</code></pre>
+</div>
+</div>
+<div id="9b327a22" class="cell code" id="9b327a22"
+data-outputId="0a0d8f4f-ee9c-4b4f-966c-5bf1613be72a">
+<div class="sourceCode" id="cb47"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb47-1"><a href="#cb47-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn <span class="im">import</span> tree</span>
+<span id="cb47-2"><a href="#cb47-2" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">35</span>,<span class="dv">25</span>))</span>
+<span id="cb47-3"><a href="#cb47-3" aria-hidden="true" tabindex="-1"></a>tree.plot_tree(dtc,filled<span class="op">=</span><span class="va">True</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="35">
+<pre><code>[Text(0.3270070929276316, 0.9722222222222222, &#39;x[24] &lt;= 0.038\ngini = 0.269\nsamples = 1176\nvalue = [988, 188]&#39;),
+ Text(0.07894736842105263, 0.9166666666666666, &#39;x[14] &lt;= 0.75\ngini = 0.5\nsamples = 78\nvalue = [39, 39]&#39;),
+ Text(0.049342105263157895, 0.8611111111111112, &#39;x[4] &lt;= 0.554\ngini = 0.426\nsamples = 39\nvalue = [27, 12]&#39;),
+ Text(0.03289473684210526, 0.8055555555555556, &#39;x[13] &lt;= 0.167\ngini = 0.312\nsamples = 31\nvalue = [25, 6]&#39;),
+ Text(0.019736842105263157, 0.75, &#39;x[14] &lt;= 0.25\ngini = 0.49\nsamples = 7\nvalue = [3, 4]&#39;),
+ Text(0.013157894736842105, 0.6944444444444444, &#39;x[16] &lt;= 0.851\ngini = 0.375\nsamples = 4\nvalue = [3, 1]&#39;),
+ Text(0.006578947368421052, 0.6388888888888888, &#39;gini = 0.0\nsamples = 3\nvalue = [3, 0]&#39;),
+ Text(0.019736842105263157, 0.6388888888888888, &#39;gini = 0.0\nsamples = 1\nvalue = [0, 1]&#39;),
+ Text(0.02631578947368421, 0.6944444444444444, &#39;gini = 0.0\nsamples = 3\nvalue = [0, 3]&#39;),
+ Text(0.046052631578947366, 0.75, &#39;x[17] &lt;= 0.056\ngini = 0.153\nsamples = 24\nvalue = [22, 2]&#39;),
+ Text(0.039473684210526314, 0.6944444444444444, &#39;gini = 0.0\nsamples = 1\nvalue = [0, 1]&#39;),
+ Text(0.05263157894736842, 0.6944444444444444, &#39;x[7] &lt;= 0.167\ngini = 0.083\nsamples = 23\nvalue = [22, 1]&#39;),
+ Text(0.046052631578947366, 0.6388888888888888, &#39;x[8] &lt;= 0.5\ngini = 0.5\nsamples = 2\nvalue = [1, 1]&#39;),
+ Text(0.039473684210526314, 0.5833333333333334, &#39;gini = 0.0\nsamples = 1\nvalue = [1, 0]&#39;),
+ Text(0.05263157894736842, 0.5833333333333334, &#39;gini = 0.0\nsamples = 1\nvalue = [0, 1]&#39;),
+ Text(0.05921052631578947, 0.6388888888888888, &#39;gini = 0.0\nsamples = 21\nvalue = [21, 0]&#39;),
+ Text(0.06578947368421052, 0.8055555555555556, &#39;x[20] &lt;= 0.679\ngini = 0.375\nsamples = 8\nvalue = [2, 6]&#39;),
+ Text(0.05921052631578947, 0.75, &#39;gini = 0.0\nsamples = 6\nvalue = [0, 6]&#39;),
+ Text(0.07236842105263158, 0.75, &#39;gini = 0.0\nsamples = 2\nvalue = [2, 0]&#39;),
+ Text(0.10855263157894737, 0.8611111111111112, &#39;x[9] &lt;= 0.364\ngini = 0.426\nsamples = 39\nvalue = [12, 27]&#39;),
+ Text(0.09210526315789473, 0.8055555555555556, &#39;x[26] &lt;= 0.167\ngini = 0.133\nsamples = 14\nvalue = [1, 13]&#39;),
+ Text(0.08552631578947369, 0.75, &#39;gini = 0.0\nsamples = 1\nvalue = [1, 0]&#39;),
+ Text(0.09868421052631579, 0.75, &#39;gini = 0.0\nsamples = 13\nvalue = [0, 13]&#39;),
+ Text(0.125, 0.8055555555555556, &#39;x[19] &lt;= 0.5\ngini = 0.493\nsamples = 25\nvalue = [11, 14]&#39;),
+ Text(0.1118421052631579, 0.75, &#39;x[2] &lt;= 0.108\ngini = 0.484\nsamples = 17\nvalue = [10, 7]&#39;),
+ Text(0.10526315789473684, 0.6944444444444444, &#39;gini = 0.0\nsamples = 3\nvalue = [0, 3]&#39;),
+ Text(0.11842105263157894, 0.6944444444444444, &#39;x[22] &lt;= 0.167\ngini = 0.408\nsamples = 14\nvalue = [10, 4]&#39;),
+ Text(0.10526315789473684, 0.6388888888888888, &#39;x[24] &lt;= 0.013\ngini = 0.375\nsamples = 4\nvalue = [1, 3]&#39;),
+ Text(0.09868421052631579, 0.5833333333333334, &#39;gini = 0.0\nsamples = 1\nvalue = [1, 0]&#39;),
+ Text(0.1118421052631579, 0.5833333333333334, &#39;gini = 0.0\nsamples = 3\nvalue = [0, 3]&#39;),
+ Text(0.13157894736842105, 0.6388888888888888, &#39;x[12] &lt;= 0.875\ngini = 0.18\nsamples = 10\nvalue = [9, 1]&#39;),
+ Text(0.125, 0.5833333333333334, &#39;gini = 0.0\nsamples = 9\nvalue = [9, 0]&#39;),
+ Text(0.13815789473684212, 0.5833333333333334, &#39;gini = 0.0\nsamples = 1\nvalue = [0, 1]&#39;),
+ Text(0.13815789473684212, 0.75, &#39;x[30] &lt;= 0.029\ngini = 0.219\nsamples = 8\nvalue = [1, 7]&#39;),
+ Text(0.13157894736842105, 0.6944444444444444, &#39;gini = 0.0\nsamples = 7\nvalue = [0, 7]&#39;),
+ Text(0.14473684210526316, 0.6944444444444444, &#39;gini = 0.0\nsamples = 1\nvalue = [1, 0]&#39;),
+ Text(0.5750668174342105, 0.9166666666666666, &#39;x[19] &lt;= 0.5\ngini = 0.235\nsamples = 1098\nvalue = [949, 149]&#39;),
+ Text(0.3236533717105263, 0.8611111111111112, &#39;x[26] &lt;= 0.167\ngini = 0.162\nsamples = 798\nvalue = [727, 71]&#39;),
+ Text(0.1875, 0.8055555555555556, &#39;x[2] &lt;= 0.738\ngini = 0.38\nsamples = 47\nvalue = [35, 12]&#39;),
+ Text(0.18092105263157895, 0.75, &#39;x[10] &lt;= 0.5\ngini = 0.463\nsamples = 33\nvalue = [21, 12]&#39;),
+ Text(0.15789473684210525, 0.6944444444444444, &#39;x[4] &lt;= 0.446\ngini = 0.42\nsamples = 10\nvalue = [3, 7]&#39;),
+ Text(0.1513157894736842, 0.6388888888888888, &#39;gini = 0.0\nsamples = 6\nvalue = [0, 6]&#39;),
+ Text(0.16447368421052633, 0.6388888888888888, &#39;x[4] &lt;= 0.714\ngini = 0.375\nsamples = 4\nvalue = [3, 1]&#39;),
+ Text(0.15789473684210525, 0.5833333333333334, &#39;gini = 0.0\nsamples = 3\nvalue = [3, 0]&#39;),
+ Text(0.17105263157894737, 0.5833333333333334, &#39;gini = 0.0\nsamples = 1\nvalue = [0, 1]&#39;),
+ Text(0.20394736842105263, 0.6944444444444444, &#39;x[25] &lt;= 0.583\ngini = 0.34\nsamples = 23\nvalue = [18, 5]&#39;),
+ Text(0.19078947368421054, 0.6388888888888888, &#39;x[9] &lt;= 0.107\ngini = 0.117\nsamples = 16\nvalue = [15, 1]&#39;),
+ Text(0.18421052631578946, 0.5833333333333334, &#39;gini = 0.0\nsamples = 1\nvalue = [0, 1]&#39;),
+ Text(0.19736842105263158, 0.5833333333333334, &#39;gini = 0.0\nsamples = 15\nvalue = [15, 0]&#39;),
+ Text(0.21710526315789475, 0.6388888888888888, &#39;x[27] &lt;= 0.319\ngini = 0.49\nsamples = 7\nvalue = [3, 4]&#39;),
+ Text(0.21052631578947367, 0.5833333333333334, &#39;gini = 0.0\nsamples = 4\nvalue = [0, 4]&#39;),
+ Text(0.2236842105263158, 0.5833333333333334, &#39;gini = 0.0\nsamples = 3\nvalue = [3, 0]&#39;),
+ Text(0.19407894736842105, 0.75, &#39;gini = 0.0\nsamples = 14\nvalue = [14, 0]&#39;),
+ Text(0.45980674342105265, 0.8055555555555556, &#39;x[27] &lt;= 0.986\ngini = 0.145\nsamples = 751\nvalue = [692, 59]&#39;),
+ Text(0.4532277960526316, 0.75, &#39;x[27] &lt;= 0.125\ngini = 0.143\nsamples = 750\nvalue = [692, 58]&#39;),
+ Text(0.3157894736842105, 0.6944444444444444, &#39;x[7] &lt;= 0.167\ngini = 0.218\nsamples = 257\nvalue = [225, 32]&#39;),
+ Text(0.2582236842105263, 0.6388888888888888, &#39;x[30] &lt;= 0.147\ngini = 0.355\nsamples = 65\nvalue = [50, 15]&#39;),
+ Text(0.23684210526315788, 0.5833333333333334, &#39;x[30] &lt;= 0.029\ngini = 0.303\nsamples = 59\nvalue = [48, 11]&#39;),
+ Text(0.2138157894736842, 0.5277777777777778, &#39;x[10] &lt;= 0.5\ngini = 0.463\nsamples = 22\nvalue = [14, 8]&#39;),
+ Text(0.20065789473684212, 0.4722222222222222, &#39;x[9] &lt;= 0.179\ngini = 0.198\nsamples = 9\nvalue = [8, 1]&#39;),
+ Text(0.19407894736842105, 0.4166666666666667, &#39;gini = 0.0\nsamples = 1\nvalue = [0, 1]&#39;),
+ Text(0.20723684210526316, 0.4166666666666667, &#39;gini = 0.0\nsamples = 8\nvalue = [8, 0]&#39;),
+ Text(0.22697368421052633, 0.4722222222222222, &#39;x[9] &lt;= 0.4\ngini = 0.497\nsamples = 13\nvalue = [6, 7]&#39;),
+ Text(0.22039473684210525, 0.4166666666666667, &#39;gini = 0.0\nsamples = 4\nvalue = [4, 0]&#39;),
+ Text(0.23355263157894737, 0.4166666666666667, &#39;x[4] &lt;= 0.286\ngini = 0.346\nsamples = 9\nvalue = [2, 7]&#39;),
+ Text(0.22697368421052633, 0.3611111111111111, &#39;x[17] &lt;= 0.944\ngini = 0.444\nsamples = 3\nvalue = [2, 1]&#39;),
+ Text(0.22039473684210525, 0.3055555555555556, &#39;gini = 0.0\nsamples = 2\nvalue = [2, 0]&#39;),
+ Text(0.23355263157894737, 0.3055555555555556, &#39;gini = 0.0\nsamples = 1\nvalue = [0, 1]&#39;),
+ Text(0.24013157894736842, 0.3611111111111111, &#39;gini = 0.0\nsamples = 6\nvalue = [0, 6]&#39;),
+ Text(0.2598684210526316, 0.5277777777777778, &#39;x[13] &lt;= 0.167\ngini = 0.149\nsamples = 37\nvalue = [34, 3]&#39;),
+ Text(0.2532894736842105, 0.4722222222222222, &#39;x[27] &lt;= 0.097\ngini = 0.5\nsamples = 6\nvalue = [3, 3]&#39;),
+ Text(0.24671052631578946, 0.4166666666666667, &#39;gini = 0.0\nsamples = 3\nvalue = [0, 3]&#39;),
+ Text(0.2598684210526316, 0.4166666666666667, &#39;gini = 0.0\nsamples = 3\nvalue = [3, 0]&#39;),
+ Text(0.26644736842105265, 0.4722222222222222, &#39;gini = 0.0\nsamples = 31\nvalue = [31, 0]&#39;),
+ Text(0.27960526315789475, 0.5833333333333334, &#39;x[10] &lt;= 0.167\ngini = 0.444\nsamples = 6\nvalue = [2, 4]&#39;),
+ Text(0.2730263157894737, 0.5277777777777778, &#39;gini = 0.0\nsamples = 3\nvalue = [0, 3]&#39;),
+ Text(0.28618421052631576, 0.5277777777777778, &#39;x[8] &lt;= 0.5\ngini = 0.444\nsamples = 3\nvalue = [2, 1]&#39;),
+ Text(0.27960526315789475, 0.4722222222222222, &#39;gini = 0.0\nsamples = 2\nvalue = [2, 0]&#39;),
+ Text(0.29276315789473684, 0.4722222222222222, &#39;gini = 0.0\nsamples = 1\nvalue = [0, 1]&#39;),
+ Text(0.37335526315789475, 0.6388888888888888, &#39;x[0] &lt;= 0.321\ngini = 0.161\nsamples = 192\nvalue = [175, 17]&#39;),
+ Text(0.3223684210526316, 0.5833333333333334, &#39;x[6] &lt;= 0.1\ngini = 0.294\nsamples = 67\nvalue = [55, 12]&#39;),
+ Text(0.3157894736842105, 0.5277777777777778, &#39;gini = 0.0\nsamples = 2\nvalue = [0, 2]&#39;),
+ Text(0.32894736842105265, 0.5277777777777778, &#39;x[26] &lt;= 0.5\ngini = 0.26\nsamples = 65\nvalue = [55, 10]&#39;),
+ Text(0.3059210526315789, 0.4722222222222222, &#39;x[6] &lt;= 0.5\ngini = 0.469\nsamples = 16\nvalue = [10, 6]&#39;),
+ Text(0.2993421052631579, 0.4166666666666667, &#39;gini = 0.0\nsamples = 7\nvalue = [7, 0]&#39;),
+ Text(0.3125, 0.4166666666666667, &#39;x[7] &lt;= 0.833\ngini = 0.444\nsamples = 9\nvalue = [3, 6]&#39;),
+ Text(0.3059210526315789, 0.3611111111111111, &#39;gini = 0.0\nsamples = 5\nvalue = [0, 5]&#39;),
+ Text(0.3190789473684211, 0.3611111111111111, &#39;x[15] &lt;= 0.345\ngini = 0.375\nsamples = 4\nvalue = [3, 1]&#39;),
+ Text(0.3125, 0.3055555555555556, &#39;gini = 0.0\nsamples = 3\nvalue = [3, 0]&#39;),
+ Text(0.3256578947368421, 0.3055555555555556, &#39;gini = 0.0\nsamples = 1\nvalue = [0, 1]&#39;),
+ Text(0.3519736842105263, 0.4722222222222222, &#39;x[2] &lt;= 0.04\ngini = 0.15\nsamples = 49\nvalue = [45, 4]&#39;),
+ Text(0.34539473684210525, 0.4166666666666667, &#39;gini = 0.0\nsamples = 1\nvalue = [0, 1]&#39;),
+ Text(0.35855263157894735, 0.4166666666666667, &#39;x[2] &lt;= 0.942\ngini = 0.117\nsamples = 48\nvalue = [45, 3]&#39;),
+ Text(0.3519736842105263, 0.3611111111111111, &#39;x[5] &lt;= 0.875\ngini = 0.081\nsamples = 47\nvalue = [45, 2]&#39;),
+ Text(0.33881578947368424, 0.3055555555555556, &#39;x[10] &lt;= 0.167\ngini = 0.043\nsamples = 45\nvalue = [44, 1]&#39;),
+ Text(0.33223684210526316, 0.25, &#39;x[23] &lt;= 0.333\ngini = 0.444\nsamples = 3\nvalue = [2, 1]&#39;),
+ Text(0.3256578947368421, 0.19444444444444445, &#39;gini = 0.0\nsamples = 1\nvalue = [0, 1]&#39;),
+ Text(0.33881578947368424, 0.19444444444444445, &#39;gini = 0.0\nsamples = 2\nvalue = [2, 0]&#39;),
+ Text(0.34539473684210525, 0.25, &#39;gini = 0.0\nsamples = 42\nvalue = [42, 0]&#39;),
+ Text(0.3651315789473684, 0.3055555555555556, &#39;x[13] &lt;= 0.667\ngini = 0.5\nsamples = 2\nvalue = [1, 1]&#39;),
+ Text(0.35855263157894735, 0.25, &#39;gini = 0.0\nsamples = 1\nvalue = [0, 1]&#39;),
+ Text(0.3717105263157895, 0.25, &#39;gini = 0.0\nsamples = 1\nvalue = [1, 0]&#39;),
+ Text(0.3651315789473684, 0.3611111111111111, &#39;gini = 0.0\nsamples = 1\nvalue = [0, 1]&#39;),
+ Text(0.4243421052631579, 0.5833333333333334, &#39;x[6] &lt;= 0.9\ngini = 0.077\nsamples = 125\nvalue = [120, 5]&#39;),
+ Text(0.41118421052631576, 0.5277777777777778, &#39;x[0] &lt;= 0.393\ngini = 0.05\nsamples = 118\nvalue = [115, 3]&#39;),
+ Text(0.40460526315789475, 0.4722222222222222, &#39;x[2] &lt;= 0.96\ngini = 0.185\nsamples = 29\nvalue = [26, 3]&#39;),
+ Text(0.3980263157894737, 0.4166666666666667, &#39;x[10] &lt;= 0.167\ngini = 0.133\nsamples = 28\nvalue = [26, 2]&#39;),
+ Text(0.3848684210526316, 0.3611111111111111, &#39;x[26] &lt;= 0.5\ngini = 0.5\nsamples = 2\nvalue = [1, 1]&#39;),
+ Text(0.3782894736842105, 0.3055555555555556, &#39;gini = 0.0\nsamples = 1\nvalue = [0, 1]&#39;),
+ Text(0.39144736842105265, 0.3055555555555556, &#39;gini = 0.0\nsamples = 1\nvalue = [1, 0]&#39;),
+ Text(0.41118421052631576, 0.3611111111111111, &#39;x[30] &lt;= 0.147\ngini = 0.074\nsamples = 26\nvalue = [25, 1]&#39;),
+ Text(0.40460526315789475, 0.3055555555555556, &#39;gini = 0.0\nsamples = 24\nvalue = [24, 0]&#39;),
+ Text(0.41776315789473684, 0.3055555555555556, &#39;x[14] &lt;= 0.75\ngini = 0.5\nsamples = 2\nvalue = [1, 1]&#39;),
+ Text(0.41118421052631576, 0.25, &#39;gini = 0.0\nsamples = 1\nvalue = [1, 0]&#39;),
+ Text(0.4243421052631579, 0.25, &#39;gini = 0.0\nsamples = 1\nvalue = [0, 1]&#39;),
+ Text(0.41118421052631576, 0.4166666666666667, &#39;gini = 0.0\nsamples = 1\nvalue = [0, 1]&#39;),
+ Text(0.41776315789473684, 0.4722222222222222, &#39;gini = 0.0\nsamples = 89\nvalue = [89, 0]&#39;),
+ Text(0.4375, 0.5277777777777778, &#39;x[2] &lt;= 0.593\ngini = 0.408\nsamples = 7\nvalue = [5, 2]&#39;),
+ Text(0.4309210526315789, 0.4722222222222222, &#39;x[17] &lt;= 0.222\ngini = 0.444\nsamples = 3\nvalue = [1, 2]&#39;),
+ Text(0.4243421052631579, 0.4166666666666667, &#39;gini = 0.0\nsamples = 1\nvalue = [1, 0]&#39;),
+ Text(0.4375, 0.4166666666666667, &#39;gini = 0.0\nsamples = 2\nvalue = [0, 2]&#39;),
+ Text(0.4440789473684211, 0.4722222222222222, &#39;gini = 0.0\nsamples = 4\nvalue = [4, 0]&#39;),
+ Text(0.5906661184210527, 0.6944444444444444, &#39;x[27] &lt;= 0.847\ngini = 0.1\nsamples = 493\nvalue = [467, 26]&#39;),
+ Text(0.5563322368421053, 0.6388888888888888, &#39;x[13] &lt;= 0.5\ngini = 0.094\nsamples = 486\nvalue = [462, 24]&#39;),
+ Text(0.5074013157894737, 0.5833333333333334, &#39;x[12] &lt;= 0.938\ngini = 0.154\nsamples = 191\nvalue = [175, 16]&#39;),
+ Text(0.5008223684210527, 0.5277777777777778, &#39;x[16] &lt;= 0.488\ngini = 0.145\nsamples = 190\nvalue = [175, 15]&#39;),
+ Text(0.4819078947368421, 0.4722222222222222, &#39;x[30] &lt;= 0.794\ngini = 0.221\nsamples = 95\nvalue = [83, 12]&#39;),
+ Text(0.4753289473684211, 0.4166666666666667, &#39;x[16] &lt;= 0.478\ngini = 0.207\nsamples = 94\nvalue = [83, 11]&#39;),
+ Text(0.46875, 0.3611111111111111, &#39;x[5] &lt;= 0.375\ngini = 0.192\nsamples = 93\nvalue = [83, 10]&#39;),
+ Text(0.4440789473684211, 0.3055555555555556, &#39;x[6] &lt;= 0.9\ngini = 0.363\nsamples = 21\nvalue = [16, 5]&#39;),
+ Text(0.4375, 0.25, &#39;x[15] &lt;= 0.751\ngini = 0.266\nsamples = 19\nvalue = [16, 3]&#39;),
+ Text(0.4243421052631579, 0.19444444444444445, &#39;x[15] &lt;= 0.318\ngini = 0.117\nsamples = 16\nvalue = [15, 1]&#39;),
+ Text(0.41776315789473684, 0.1388888888888889, &#39;x[1] &lt;= 0.75\ngini = 0.5\nsamples = 2\nvalue = [1, 1]&#39;),
+ Text(0.41118421052631576, 0.08333333333333333, &#39;gini = 0.0\nsamples = 1\nvalue = [0, 1]&#39;),
+ Text(0.4243421052631579, 0.08333333333333333, &#39;gini = 0.0\nsamples = 1\nvalue = [1, 0]&#39;),
+ Text(0.4309210526315789, 0.1388888888888889, &#39;gini = 0.0\nsamples = 14\nvalue = [14, 0]&#39;),
+ Text(0.4506578947368421, 0.19444444444444445, &#39;x[14] &lt;= 0.25\ngini = 0.444\nsamples = 3\nvalue = [1, 2]&#39;),
+ Text(0.4440789473684211, 0.1388888888888889, &#39;gini = 0.0\nsamples = 1\nvalue = [1, 0]&#39;),
+ Text(0.45723684210526316, 0.1388888888888889, &#39;gini = 0.0\nsamples = 2\nvalue = [0, 2]&#39;),
+ Text(0.4506578947368421, 0.25, &#39;gini = 0.0\nsamples = 2\nvalue = [0, 2]&#39;),
+ Text(0.4934210526315789, 0.3055555555555556, &#39;x[28] &lt;= 0.139\ngini = 0.129\nsamples = 72\nvalue = [67, 5]&#39;),
+ Text(0.47039473684210525, 0.25, &#39;x[30] &lt;= 0.206\ngini = 0.444\nsamples = 6\nvalue = [4, 2]&#39;),
+ Text(0.46381578947368424, 0.19444444444444445, &#39;gini = 0.0\nsamples = 3\nvalue = [3, 0]&#39;),
+ Text(0.4769736842105263, 0.19444444444444445, &#39;x[2] &lt;= 0.625\ngini = 0.444\nsamples = 3\nvalue = [1, 2]&#39;),
+ Text(0.47039473684210525, 0.1388888888888889, &#39;gini = 0.0\nsamples = 2\nvalue = [0, 2]&#39;),
+ Text(0.48355263157894735, 0.1388888888888889, &#39;gini = 0.0\nsamples = 1\nvalue = [1, 0]&#39;),
+ Text(0.5164473684210527, 0.25, &#39;x[2] &lt;= 0.96\ngini = 0.087\nsamples = 66\nvalue = [63, 3]&#39;),
+ Text(0.5032894736842105, 0.19444444444444445, &#39;x[25] &lt;= 0.583\ngini = 0.061\nsamples = 64\nvalue = [62, 2]&#39;),
+ Text(0.4967105263157895, 0.1388888888888889, &#39;gini = 0.0\nsamples = 52\nvalue = [52, 0]&#39;),
+ Text(0.5098684210526315, 0.1388888888888889, &#39;x[12] &lt;= 0.812\ngini = 0.278\nsamples = 12\nvalue = [10, 2]&#39;),
+ Text(0.5032894736842105, 0.08333333333333333, &#39;gini = 0.0\nsamples = 9\nvalue = [9, 0]&#39;),
+ Text(0.5164473684210527, 0.08333333333333333, &#39;x[15] &lt;= 0.76\ngini = 0.444\nsamples = 3\nvalue = [1, 2]&#39;),
+ Text(0.5098684210526315, 0.027777777777777776, &#39;gini = 0.0\nsamples = 1\nvalue = [1, 0]&#39;),
+ Text(0.5230263157894737, 0.027777777777777776, &#39;gini = 0.0\nsamples = 2\nvalue = [0, 2]&#39;),
+ Text(0.5296052631578947, 0.19444444444444445, &#39;x[5] &lt;= 0.75\ngini = 0.5\nsamples = 2\nvalue = [1, 1]&#39;),
+ Text(0.5230263157894737, 0.1388888888888889, &#39;gini = 0.0\nsamples = 1\nvalue = [1, 0]&#39;),
+ Text(0.5361842105263158, 0.1388888888888889, &#39;gini = 0.0\nsamples = 1\nvalue = [0, 1]&#39;),
+ Text(0.4819078947368421, 0.3611111111111111, &#39;gini = 0.0\nsamples = 1\nvalue = [0, 1]&#39;),
+ Text(0.48848684210526316, 0.4166666666666667, &#39;gini = 0.0\nsamples = 1\nvalue = [0, 1]&#39;),
+ Text(0.5197368421052632, 0.4722222222222222, &#39;x[17] &lt;= 0.5\ngini = 0.061\nsamples = 95\nvalue = [92, 3]&#39;),
+ Text(0.5131578947368421, 0.4166666666666667, &#39;gini = 0.0\nsamples = 76\nvalue = [76, 0]&#39;),
+ Text(0.5263157894736842, 0.4166666666666667, &#39;x[30] &lt;= 0.088\ngini = 0.266\nsamples = 19\nvalue = [16, 3]&#39;),
+ Text(0.5131578947368421, 0.3611111111111111, &#39;x[9] &lt;= 0.586\ngini = 0.444\nsamples = 3\nvalue = [1, 2]&#39;),
+ Text(0.506578947368421, 0.3055555555555556, &#39;gini = 0.0\nsamples = 2\nvalue = [0, 2]&#39;),
+ Text(0.5197368421052632, 0.3055555555555556, &#39;gini = 0.0\nsamples = 1\nvalue = [1, 0]&#39;),
+ Text(0.5394736842105263, 0.3611111111111111, &#39;x[15] &lt;= 0.239\ngini = 0.117\nsamples = 16\nvalue = [15, 1]&#39;),
+ Text(0.5328947368421053, 0.3055555555555556, &#39;gini = 0.0\nsamples = 1\nvalue = [0, 1]&#39;),
+ Text(0.5460526315789473, 0.3055555555555556, &#39;gini = 0.0\nsamples = 15\nvalue = [15, 0]&#39;),
+ Text(0.5139802631578947, 0.5277777777777778, &#39;gini = 0.0\nsamples = 1\nvalue = [0, 1]&#39;),
+ Text(0.6052631578947368, 0.5833333333333334, &#39;x[20] &lt;= 0.036\ngini = 0.053\nsamples = 295\nvalue = [287, 8]&#39;),
+ Text(0.5822368421052632, 0.5277777777777778, &#39;x[29] &lt;= 0.7\ngini = 0.159\nsamples = 46\nvalue = [42, 4]&#39;),
+ Text(0.5756578947368421, 0.4722222222222222, &#39;x[9] &lt;= 0.071\ngini = 0.124\nsamples = 45\nvalue = [42, 3]&#39;),
+ Text(0.5592105263157895, 0.4166666666666667, &#39;x[26] &lt;= 0.5\ngini = 0.5\nsamples = 2\nvalue = [1, 1]&#39;),
+ Text(0.5526315789473685, 0.3611111111111111, &#39;gini = 0.0\nsamples = 1\nvalue = [0, 1]&#39;),
+ Text(0.5657894736842105, 0.3611111111111111, &#39;gini = 0.0\nsamples = 1\nvalue = [1, 0]&#39;),
+ Text(0.5921052631578947, 0.4166666666666667, &#39;x[24] &lt;= 0.705\ngini = 0.089\nsamples = 43\nvalue = [41, 2]&#39;),
+ Text(0.5789473684210527, 0.3611111111111111, &#39;x[12] &lt;= 0.062\ngini = 0.048\nsamples = 41\nvalue = [40, 1]&#39;),
+ Text(0.5723684210526315, 0.3055555555555556, &#39;x[16] &lt;= 0.354\ngini = 0.375\nsamples = 4\nvalue = [3, 1]&#39;),
+ Text(0.5657894736842105, 0.25, &#39;gini = 0.0\nsamples = 3\nvalue = [3, 0]&#39;),
+ Text(0.5789473684210527, 0.25, &#39;gini = 0.0\nsamples = 1\nvalue = [0, 1]&#39;),
+ Text(0.5855263157894737, 0.3055555555555556, &#39;gini = 0.0\nsamples = 37\nvalue = [37, 0]&#39;),
+ Text(0.6052631578947368, 0.3611111111111111, &#39;x[2] &lt;= 0.362\ngini = 0.5\nsamples = 2\nvalue = [1, 1]&#39;),
+ Text(0.5986842105263158, 0.3055555555555556, &#39;gini = 0.0\nsamples = 1\nvalue = [0, 1]&#39;),
+ Text(0.6118421052631579, 0.3055555555555556, &#39;gini = 0.0\nsamples = 1\nvalue = [1, 0]&#39;),
+ Text(0.5888157894736842, 0.4722222222222222, &#39;gini = 0.0\nsamples = 1\nvalue = [0, 1]&#39;),
+ Text(0.6282894736842105, 0.5277777777777778, &#39;x[15] &lt;= 0.037\ngini = 0.032\nsamples = 249\nvalue = [245, 4]&#39;),
+ Text(0.6118421052631579, 0.4722222222222222, &#39;x[14] &lt;= 0.75\ngini = 0.32\nsamples = 5\nvalue = [4, 1]&#39;),
+ Text(0.6052631578947368, 0.4166666666666667, &#39;gini = 0.0\nsamples = 4\nvalue = [4, 0]&#39;),
+ Text(0.618421052631579, 0.4166666666666667, &#39;gini = 0.0\nsamples = 1\nvalue = [0, 1]&#39;),
+ Text(0.6447368421052632, 0.4722222222222222, &#39;x[2] &lt;= 0.017\ngini = 0.024\nsamples = 244\nvalue = [241, 3]&#39;),
+ Text(0.631578947368421, 0.4166666666666667, &#39;x[22] &lt;= 0.833\ngini = 0.278\nsamples = 6\nvalue = [5, 1]&#39;),
+ Text(0.625, 0.3611111111111111, &#39;gini = 0.0\nsamples = 5\nvalue = [5, 0]&#39;),
+ Text(0.6381578947368421, 0.3611111111111111, &#39;gini = 0.0\nsamples = 1\nvalue = [0, 1]&#39;),
+ Text(0.6578947368421053, 0.4166666666666667, &#39;x[22] &lt;= 0.167\ngini = 0.017\nsamples = 238\nvalue = [236, 2]&#39;),
+ Text(0.6513157894736842, 0.3611111111111111, &#39;x[26] &lt;= 0.833\ngini = 0.073\nsamples = 53\nvalue = [51, 2]&#39;),
+ Text(0.6381578947368421, 0.3055555555555556, &#39;x[30] &lt;= 0.088\ngini = 0.041\nsamples = 48\nvalue = [47, 1]&#39;),
+ Text(0.631578947368421, 0.25, &#39;x[16] &lt;= 0.837\ngini = 0.245\nsamples = 7\nvalue = [6, 1]&#39;),
+ Text(0.625, 0.19444444444444445, &#39;gini = 0.0\nsamples = 6\nvalue = [6, 0]&#39;),
+ Text(0.6381578947368421, 0.19444444444444445, &#39;gini = 0.0\nsamples = 1\nvalue = [0, 1]&#39;),
+ Text(0.6447368421052632, 0.25, &#39;gini = 0.0\nsamples = 41\nvalue = [41, 0]&#39;),
+ Text(0.6644736842105263, 0.3055555555555556, &#39;x[20] &lt;= 0.357\ngini = 0.32\nsamples = 5\nvalue = [4, 1]&#39;),
+ Text(0.6578947368421053, 0.25, &#39;gini = 0.0\nsamples = 4\nvalue = [4, 0]&#39;),
+ Text(0.6710526315789473, 0.25, &#39;gini = 0.0\nsamples = 1\nvalue = [0, 1]&#39;),
+ Text(0.6644736842105263, 0.3611111111111111, &#39;gini = 0.0\nsamples = 185\nvalue = [185, 0]&#39;),
+ Text(0.625, 0.6388888888888888, &#39;x[8] &lt;= 0.5\ngini = 0.408\nsamples = 7\nvalue = [5, 2]&#39;),
+ Text(0.618421052631579, 0.5833333333333334, &#39;gini = 0.0\nsamples = 2\nvalue = [0, 2]&#39;),
+ Text(0.631578947368421, 0.5833333333333334, &#39;gini = 0.0\nsamples = 5\nvalue = [5, 0]&#39;),
+ Text(0.4663856907894737, 0.75, &#39;gini = 0.0\nsamples = 1\nvalue = [0, 1]&#39;),
+ Text(0.8264802631578947, 0.8611111111111112, &#39;x[15] &lt;= 0.351\ngini = 0.385\nsamples = 300\nvalue = [222, 78]&#39;),
+ Text(0.740953947368421, 0.8055555555555556, &#39;x[23] &lt;= 0.167\ngini = 0.5\nsamples = 96\nvalue = [49, 47]&#39;),
+ Text(0.7072368421052632, 0.75, &#39;x[4] &lt;= 0.161\ngini = 0.459\nsamples = 42\nvalue = [15, 27]&#39;),
+ Text(0.6842105263157895, 0.6944444444444444, &#39;x[16] &lt;= 0.418\ngini = 0.499\nsamples = 23\nvalue = [12, 11]&#39;),
+ Text(0.6710526315789473, 0.6388888888888888, &#39;x[15] &lt;= 0.062\ngini = 0.426\nsamples = 13\nvalue = [4, 9]&#39;),
+ Text(0.6644736842105263, 0.5833333333333334, &#39;gini = 0.0\nsamples = 2\nvalue = [2, 0]&#39;),
+ Text(0.6776315789473685, 0.5833333333333334, &#39;x[25] &lt;= 0.25\ngini = 0.298\nsamples = 11\nvalue = [2, 9]&#39;),
+ Text(0.6710526315789473, 0.5277777777777778, &#39;gini = 0.0\nsamples = 1\nvalue = [1, 0]&#39;),
+ Text(0.6842105263157895, 0.5277777777777778, &#39;x[0] &lt;= 0.214\ngini = 0.18\nsamples = 10\nvalue = [1, 9]&#39;),
+ Text(0.6776315789473685, 0.4722222222222222, &#39;x[20] &lt;= 0.321\ngini = 0.5\nsamples = 2\nvalue = [1, 1]&#39;),
+ Text(0.6710526315789473, 0.4166666666666667, &#39;gini = 0.0\nsamples = 1\nvalue = [0, 1]&#39;),
+ Text(0.6842105263157895, 0.4166666666666667, &#39;gini = 0.0\nsamples = 1\nvalue = [1, 0]&#39;),
+ Text(0.6907894736842105, 0.4722222222222222, &#39;gini = 0.0\nsamples = 8\nvalue = [0, 8]&#39;),
+ Text(0.6973684210526315, 0.6388888888888888, &#39;x[15] &lt;= 0.25\ngini = 0.32\nsamples = 10\nvalue = [8, 2]&#39;),
+ Text(0.6907894736842105, 0.5833333333333334, &#39;gini = 0.0\nsamples = 7\nvalue = [7, 0]&#39;),
+ Text(0.7039473684210527, 0.5833333333333334, &#39;x[9] &lt;= 0.243\ngini = 0.444\nsamples = 3\nvalue = [1, 2]&#39;),
+ Text(0.6973684210526315, 0.5277777777777778, &#39;gini = 0.0\nsamples = 1\nvalue = [1, 0]&#39;),
+ Text(0.7105263157894737, 0.5277777777777778, &#39;gini = 0.0\nsamples = 2\nvalue = [0, 2]&#39;),
+ Text(0.7302631578947368, 0.6944444444444444, &#39;x[24] &lt;= 0.359\ngini = 0.266\nsamples = 19\nvalue = [3, 16]&#39;),
+ Text(0.7236842105263158, 0.6388888888888888, &#39;x[9] &lt;= 0.2\ngini = 0.198\nsamples = 18\nvalue = [2, 16]&#39;),
+ Text(0.7171052631578947, 0.5833333333333334, &#39;gini = 0.0\nsamples = 1\nvalue = [1, 0]&#39;),
+ Text(0.7302631578947368, 0.5833333333333334, &#39;x[0] &lt;= 0.595\ngini = 0.111\nsamples = 17\nvalue = [1, 16]&#39;),
+ Text(0.7236842105263158, 0.5277777777777778, &#39;gini = 0.0\nsamples = 15\nvalue = [0, 15]&#39;),
+ Text(0.7368421052631579, 0.5277777777777778, &#39;x[20] &lt;= 0.071\ngini = 0.5\nsamples = 2\nvalue = [1, 1]&#39;),
+ Text(0.7302631578947368, 0.4722222222222222, &#39;gini = 0.0\nsamples = 1\nvalue = [0, 1]&#39;),
+ Text(0.743421052631579, 0.4722222222222222, &#39;gini = 0.0\nsamples = 1\nvalue = [1, 0]&#39;),
+ Text(0.7368421052631579, 0.6388888888888888, &#39;gini = 0.0\nsamples = 1\nvalue = [1, 0]&#39;),
+ Text(0.774671052631579, 0.75, &#39;x[0] &lt;= 0.202\ngini = 0.466\nsamples = 54\nvalue = [34, 20]&#39;),
+ Text(0.756578947368421, 0.6944444444444444, &#39;x[0] &lt;= 0.107\ngini = 0.245\nsamples = 7\nvalue = [1, 6]&#39;),
+ Text(0.75, 0.6388888888888888, &#39;gini = 0.0\nsamples = 1\nvalue = [1, 0]&#39;),
+ Text(0.7631578947368421, 0.6388888888888888, &#39;gini = 0.0\nsamples = 6\nvalue = [0, 6]&#39;),
+ Text(0.7927631578947368, 0.6944444444444444, &#39;x[2] &lt;= 0.62\ngini = 0.418\nsamples = 47\nvalue = [33, 14]&#39;),
+ Text(0.7763157894736842, 0.6388888888888888, &#39;x[2] &lt;= 0.147\ngini = 0.482\nsamples = 32\nvalue = [19, 13]&#39;),
+ Text(0.7631578947368421, 0.5833333333333334, &#39;x[4] &lt;= 0.821\ngini = 0.18\nsamples = 10\nvalue = [9, 1]&#39;),
+ Text(0.756578947368421, 0.5277777777777778, &#39;gini = 0.0\nsamples = 9\nvalue = [9, 0]&#39;),
+ Text(0.7697368421052632, 0.5277777777777778, &#39;gini = 0.0\nsamples = 1\nvalue = [0, 1]&#39;),
+ Text(0.7894736842105263, 0.5833333333333334, &#39;x[16] &lt;= 0.89\ngini = 0.496\nsamples = 22\nvalue = [10, 12]&#39;),
+ Text(0.7828947368421053, 0.5277777777777778, &#39;x[26] &lt;= 0.833\ngini = 0.465\nsamples = 19\nvalue = [7, 12]&#39;),
+ Text(0.7763157894736842, 0.4722222222222222, &#39;x[17] &lt;= 0.167\ngini = 0.415\nsamples = 17\nvalue = [5, 12]&#39;),
+ Text(0.7631578947368421, 0.4166666666666667, &#39;x[20] &lt;= 0.321\ngini = 0.49\nsamples = 7\nvalue = [4, 3]&#39;),
+ Text(0.756578947368421, 0.3611111111111111, &#39;gini = 0.0\nsamples = 4\nvalue = [4, 0]&#39;),
+ Text(0.7697368421052632, 0.3611111111111111, &#39;gini = 0.0\nsamples = 3\nvalue = [0, 3]&#39;),
+ Text(0.7894736842105263, 0.4166666666666667, &#39;x[3] &lt;= 0.25\ngini = 0.18\nsamples = 10\nvalue = [1, 9]&#39;),
+ Text(0.7828947368421053, 0.3611111111111111, &#39;x[13] &lt;= 0.5\ngini = 0.5\nsamples = 2\nvalue = [1, 1]&#39;),
+ Text(0.7763157894736842, 0.3055555555555556, &#39;gini = 0.0\nsamples = 1\nvalue = [0, 1]&#39;),
+ Text(0.7894736842105263, 0.3055555555555556, &#39;gini = 0.0\nsamples = 1\nvalue = [1, 0]&#39;),
+ Text(0.7960526315789473, 0.3611111111111111, &#39;gini = 0.0\nsamples = 8\nvalue = [0, 8]&#39;),
+ Text(0.7894736842105263, 0.4722222222222222, &#39;gini = 0.0\nsamples = 2\nvalue = [2, 0]&#39;),
+ Text(0.7960526315789473, 0.5277777777777778, &#39;gini = 0.0\nsamples = 3\nvalue = [3, 0]&#39;),
+ Text(0.8092105263157895, 0.6388888888888888, &#39;x[17] &lt;= 0.944\ngini = 0.124\nsamples = 15\nvalue = [14, 1]&#39;),
+ Text(0.8026315789473685, 0.5833333333333334, &#39;gini = 0.0\nsamples = 14\nvalue = [14, 0]&#39;),
+ Text(0.8157894736842105, 0.5833333333333334, &#39;gini = 0.0\nsamples = 1\nvalue = [0, 1]&#39;),
+ Text(0.9120065789473685, 0.8055555555555556, &#39;x[14] &lt;= 0.75\ngini = 0.258\nsamples = 204\nvalue = [173, 31]&#39;),
+ Text(0.8601973684210527, 0.75, &#39;x[15] &lt;= 0.997\ngini = 0.138\nsamples = 147\nvalue = [136, 11]&#39;),
+ Text(0.8536184210526315, 0.6944444444444444, &#39;x[4] &lt;= 0.482\ngini = 0.128\nsamples = 146\nvalue = [136, 10]&#39;),
+ Text(0.8355263157894737, 0.6388888888888888, &#39;x[27] &lt;= 0.069\ngini = 0.038\nsamples = 104\nvalue = [102, 2]&#39;),
+ Text(0.8289473684210527, 0.5833333333333334, &#39;x[9] &lt;= 0.193\ngini = 0.32\nsamples = 10\nvalue = [8, 2]&#39;),
+ Text(0.8223684210526315, 0.5277777777777778, &#39;x[6] &lt;= 0.7\ngini = 0.444\nsamples = 3\nvalue = [1, 2]&#39;),
+ Text(0.8157894736842105, 0.4722222222222222, &#39;gini = 0.0\nsamples = 2\nvalue = [0, 2]&#39;),
+ Text(0.8289473684210527, 0.4722222222222222, &#39;gini = 0.0\nsamples = 1\nvalue = [1, 0]&#39;),
+ Text(0.8355263157894737, 0.5277777777777778, &#39;gini = 0.0\nsamples = 7\nvalue = [7, 0]&#39;),
+ Text(0.8421052631578947, 0.5833333333333334, &#39;gini = 0.0\nsamples = 94\nvalue = [94, 0]&#39;),
+ Text(0.8717105263157895, 0.6388888888888888, &#39;x[7] &lt;= 0.167\ngini = 0.308\nsamples = 42\nvalue = [34, 8]&#39;),
+ Text(0.8552631578947368, 0.5833333333333334, &#39;x[9] &lt;= 0.307\ngini = 0.375\nsamples = 4\nvalue = [1, 3]&#39;),
+ Text(0.8486842105263158, 0.5277777777777778, &#39;gini = 0.0\nsamples = 1\nvalue = [1, 0]&#39;),
+ Text(0.8618421052631579, 0.5277777777777778, &#39;gini = 0.0\nsamples = 3\nvalue = [0, 3]&#39;),
+ Text(0.8881578947368421, 0.5833333333333334, &#39;x[0] &lt;= 0.393\ngini = 0.229\nsamples = 38\nvalue = [33, 5]&#39;),
+ Text(0.875, 0.5277777777777778, &#39;x[2] &lt;= 0.511\ngini = 0.5\nsamples = 6\nvalue = [3, 3]&#39;),
+ Text(0.868421052631579, 0.4722222222222222, &#39;x[15] &lt;= 0.447\ngini = 0.375\nsamples = 4\nvalue = [3, 1]&#39;),
+ Text(0.8618421052631579, 0.4166666666666667, &#39;gini = 0.0\nsamples = 1\nvalue = [0, 1]&#39;),
+ Text(0.875, 0.4166666666666667, &#39;gini = 0.0\nsamples = 3\nvalue = [3, 0]&#39;),
+ Text(0.881578947368421, 0.4722222222222222, &#39;gini = 0.0\nsamples = 2\nvalue = [0, 2]&#39;),
+ Text(0.9013157894736842, 0.5277777777777778, &#39;x[25] &lt;= 0.917\ngini = 0.117\nsamples = 32\nvalue = [30, 2]&#39;),
+ Text(0.8947368421052632, 0.4722222222222222, &#39;x[12] &lt;= 0.812\ngini = 0.062\nsamples = 31\nvalue = [30, 1]&#39;),
+ Text(0.8881578947368421, 0.4166666666666667, &#39;gini = 0.0\nsamples = 28\nvalue = [28, 0]&#39;),
+ Text(0.9013157894736842, 0.4166666666666667, &#39;x[10] &lt;= 0.5\ngini = 0.444\nsamples = 3\nvalue = [2, 1]&#39;),
+ Text(0.8947368421052632, 0.3611111111111111, &#39;gini = 0.0\nsamples = 1\nvalue = [0, 1]&#39;),
+ Text(0.9078947368421053, 0.3611111111111111, &#39;gini = 0.0\nsamples = 2\nvalue = [2, 0]&#39;),
+ Text(0.9078947368421053, 0.4722222222222222, &#39;gini = 0.0\nsamples = 1\nvalue = [0, 1]&#39;),
+ Text(0.8667763157894737, 0.6944444444444444, &#39;gini = 0.0\nsamples = 1\nvalue = [0, 1]&#39;),
+ Text(0.9638157894736842, 0.75, &#39;x[12] &lt;= 0.812\ngini = 0.456\nsamples = 57\nvalue = [37, 20]&#39;),
+ Text(0.9407894736842105, 0.6944444444444444, &#39;x[29] &lt;= 0.4\ngini = 0.238\nsamples = 29\nvalue = [25, 4]&#39;),
+ Text(0.9276315789473685, 0.6388888888888888, &#39;x[9] &lt;= 0.964\ngini = 0.142\nsamples = 26\nvalue = [24, 2]&#39;),
+ Text(0.9210526315789473, 0.5833333333333334, &#39;x[21] &lt;= 0.5\ngini = 0.077\nsamples = 25\nvalue = [24, 1]&#39;),
+ Text(0.9144736842105263, 0.5277777777777778, &#39;gini = 0.0\nsamples = 23\nvalue = [23, 0]&#39;),
+ Text(0.9276315789473685, 0.5277777777777778, &#39;x[9] &lt;= 0.414\ngini = 0.5\nsamples = 2\nvalue = [1, 1]&#39;),
+ Text(0.9210526315789473, 0.4722222222222222, &#39;gini = 0.0\nsamples = 1\nvalue = [1, 0]&#39;),
+ Text(0.9342105263157895, 0.4722222222222222, &#39;gini = 0.0\nsamples = 1\nvalue = [0, 1]&#39;),
+ Text(0.9342105263157895, 0.5833333333333334, &#39;gini = 0.0\nsamples = 1\nvalue = [0, 1]&#39;),
+ Text(0.9539473684210527, 0.6388888888888888, &#39;x[2] &lt;= 0.328\ngini = 0.444\nsamples = 3\nvalue = [1, 2]&#39;),
+ Text(0.9473684210526315, 0.5833333333333334, &#39;gini = 0.0\nsamples = 2\nvalue = [0, 2]&#39;),
+ Text(0.9605263157894737, 0.5833333333333334, &#39;gini = 0.0\nsamples = 1\nvalue = [1, 0]&#39;),
+ Text(0.9868421052631579, 0.6944444444444444, &#39;x[29] &lt;= 0.1\ngini = 0.49\nsamples = 28\nvalue = [12, 16]&#39;),
+ Text(0.9802631578947368, 0.6388888888888888, &#39;x[10] &lt;= 0.833\ngini = 0.48\nsamples = 20\nvalue = [12, 8]&#39;),
+ Text(0.9736842105263158, 0.5833333333333334, &#39;x[4] &lt;= 0.018\ngini = 0.415\nsamples = 17\nvalue = [12, 5]&#39;),
+ Text(0.9671052631578947, 0.5277777777777778, &#39;gini = 0.0\nsamples = 2\nvalue = [0, 2]&#39;),
+ Text(0.9802631578947368, 0.5277777777777778, &#39;x[15] &lt;= 0.718\ngini = 0.32\nsamples = 15\nvalue = [12, 3]&#39;),
+ Text(0.9736842105263158, 0.4722222222222222, &#39;gini = 0.0\nsamples = 11\nvalue = [11, 0]&#39;),
+ Text(0.9868421052631579, 0.4722222222222222, &#39;x[9] &lt;= 0.829\ngini = 0.375\nsamples = 4\nvalue = [1, 3]&#39;),
+ Text(0.9802631578947368, 0.4166666666666667, &#39;gini = 0.0\nsamples = 3\nvalue = [0, 3]&#39;),
+ Text(0.993421052631579, 0.4166666666666667, &#39;gini = 0.0\nsamples = 1\nvalue = [1, 0]&#39;),
+ Text(0.9868421052631579, 0.5833333333333334, &#39;gini = 0.0\nsamples = 3\nvalue = [0, 3]&#39;),
+ Text(0.993421052631579, 0.6388888888888888, &#39;gini = 0.0\nsamples = 8\nvalue = [0, 8]&#39;)]</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_4521e713796842788f55d40e749bb8ba/3c29b7c5647363514cc76c1f311430537b085185.png" /></p>
+</div>
+</div>
+<div id="0196d938" class="cell code" id="0196d938"
+data-outputId="5982d284-8bc2-45d8-f58d-c3fdd3f52c02">
+<div class="sourceCode" id="cb49"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb49-1"><a href="#cb49-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> GridSearchCV</span>
+<span id="cb49-2"><a href="#cb49-2" aria-hidden="true" tabindex="-1"></a>parameter<span class="op">=</span>{</span>
+<span id="cb49-3"><a href="#cb49-3" aria-hidden="true" tabindex="-1"></a> <span class="st">&#39;criterion&#39;</span>:[<span class="st">&#39;gini&#39;</span>,<span class="st">&#39;entropy&#39;</span>],</span>
+<span id="cb49-4"><a href="#cb49-4" aria-hidden="true" tabindex="-1"></a>  <span class="st">&#39;splitter&#39;</span>:[<span class="st">&#39;best&#39;</span>,<span class="st">&#39;random&#39;</span>],</span>
+<span id="cb49-5"><a href="#cb49-5" aria-hidden="true" tabindex="-1"></a>  <span class="st">&#39;max_depth&#39;</span>:[<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">3</span>,<span class="dv">4</span>,<span class="dv">5</span>],</span>
+<span id="cb49-6"><a href="#cb49-6" aria-hidden="true" tabindex="-1"></a>  <span class="st">&#39;max_features&#39;</span>:[<span class="st">&#39;auto&#39;</span>, <span class="st">&#39;sqrt&#39;</span>, <span class="st">&#39;log2&#39;</span>]</span>
+<span id="cb49-7"><a href="#cb49-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb49-8"><a href="#cb49-8" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb49-9"><a href="#cb49-9" aria-hidden="true" tabindex="-1"></a>grid_search <span class="op">=</span> GridSearchCV(estimator<span class="op">=</span>dtc,param_grid<span class="op">=</span>parameter,cv<span class="op">=</span><span class="dv">5</span>,scoring<span class="op">=</span><span class="st">&quot;accuracy&quot;</span>)</span>
+<span id="cb49-10"><a href="#cb49-10" aria-hidden="true" tabindex="-1"></a>grid_search.fit(xtrain,ytrain)</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>C:\ProgramData\anaconda3\Lib\site-packages\sklearn\model_selection\_validation.py:425: FitFailedWarning: 
+100 fits failed out of a total of 300.
+The score on these train-test partitions for these parameters will be set to nan.
+If these failures are not expected, you can try to debug them by setting error_score=&#39;raise&#39;.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+100 fits failed with the following error:
+Traceback (most recent call last):
+  File &quot;C:\ProgramData\anaconda3\Lib\site-packages\sklearn\model_selection\_validation.py&quot;, line 732, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File &quot;C:\ProgramData\anaconda3\Lib\site-packages\sklearn\base.py&quot;, line 1144, in wrapper
+    estimator._validate_params()
+  File &quot;C:\ProgramData\anaconda3\Lib\site-packages\sklearn\base.py&quot;, line 637, in _validate_params
+    validate_parameter_constraints(
+  File &quot;C:\ProgramData\anaconda3\Lib\site-packages\sklearn\utils\_param_validation.py&quot;, line 95, in validate_parameter_constraints
+    raise InvalidParameterError(
+sklearn.utils._param_validation.InvalidParameterError: The &#39;max_features&#39; parameter of DecisionTreeClassifier must be an int in the range [1, inf), a float in the range (0.0, 1.0], a str among {&#39;sqrt&#39;, &#39;log2&#39;} or None. Got &#39;auto&#39; instead.
+
+  warnings.warn(some_fits_failed_message, FitFailedWarning)
+C:\ProgramData\anaconda3\Lib\site-packages\sklearn\model_selection\_search.py:976: UserWarning: One or more of the test scores are non-finite: [       nan        nan 0.84013704 0.8409881  0.83588172 0.84013704
+        nan        nan 0.83673639 0.84013704 0.83843491 0.84013704
+        nan        nan 0.83673278 0.84014425 0.83673639 0.84438875
+        nan        nan 0.8358745  0.83929318 0.82993148 0.84693473
+        nan        nan 0.83163    0.83759827 0.8265669  0.83759466
+        nan        nan 0.84013704 0.84013704 0.84013704 0.84013704
+        nan        nan 0.83928597 0.83928597 0.84013704 0.84013704
+        nan        nan 0.83843491 0.83843491 0.83844573 0.83928237
+        nan        nan 0.84268662 0.83671475 0.84268301 0.84012622
+        nan        nan 0.82482149 0.82993509 0.8341832  0.84353768]
+  warnings.warn(
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="36">
+<style>#sk-container-id-3 {color: black;}#sk-container-id-3 pre{padding: 0;}#sk-container-id-3 div.sk-toggleable {background-color: white;}#sk-container-id-3 label.sk-toggleable__label {cursor: pointer;display: block;width: 100%;margin-bottom: 0;padding: 0.3em;box-sizing: border-box;text-align: center;}#sk-container-id-3 label.sk-toggleable__label-arrow:before {content: "▸";float: left;margin-right: 0.25em;color: #696969;}#sk-container-id-3 label.sk-toggleable__label-arrow:hover:before {color: black;}#sk-container-id-3 div.sk-estimator:hover label.sk-toggleable__label-arrow:before {color: black;}#sk-container-id-3 div.sk-toggleable__content {max-height: 0;max-width: 0;overflow: hidden;text-align: left;background-color: #f0f8ff;}#sk-container-id-3 div.sk-toggleable__content pre {margin: 0.2em;color: black;border-radius: 0.25em;background-color: #f0f8ff;}#sk-container-id-3 input.sk-toggleable__control:checked~div.sk-toggleable__content {max-height: 200px;max-width: 100%;overflow: auto;}#sk-container-id-3 input.sk-toggleable__control:checked~label.sk-toggleable__label-arrow:before {content: "▾";}#sk-container-id-3 div.sk-estimator input.sk-toggleable__control:checked~label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-3 div.sk-label input.sk-toggleable__control:checked~label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-3 input.sk-hidden--visually {border: 0;clip: rect(1px 1px 1px 1px);clip: rect(1px, 1px, 1px, 1px);height: 1px;margin: -1px;overflow: hidden;padding: 0;position: absolute;width: 1px;}#sk-container-id-3 div.sk-estimator {font-family: monospace;background-color: #f0f8ff;border: 1px dotted black;border-radius: 0.25em;box-sizing: border-box;margin-bottom: 0.5em;}#sk-container-id-3 div.sk-estimator:hover {background-color: #d4ebff;}#sk-container-id-3 div.sk-parallel-item::after {content: "";width: 100%;border-bottom: 1px solid gray;flex-grow: 1;}#sk-container-id-3 div.sk-label:hover label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-3 div.sk-serial::before {content: "";position: absolute;border-left: 1px solid gray;box-sizing: border-box;top: 0;bottom: 0;left: 50%;z-index: 0;}#sk-container-id-3 div.sk-serial {display: flex;flex-direction: column;align-items: center;background-color: white;padding-right: 0.2em;padding-left: 0.2em;position: relative;}#sk-container-id-3 div.sk-item {position: relative;z-index: 1;}#sk-container-id-3 div.sk-parallel {display: flex;align-items: stretch;justify-content: center;background-color: white;position: relative;}#sk-container-id-3 div.sk-item::before, #sk-container-id-3 div.sk-parallel-item::before {content: "";position: absolute;border-left: 1px solid gray;box-sizing: border-box;top: 0;bottom: 0;left: 50%;z-index: -1;}#sk-container-id-3 div.sk-parallel-item {display: flex;flex-direction: column;z-index: 1;position: relative;background-color: white;}#sk-container-id-3 div.sk-parallel-item:first-child::after {align-self: flex-end;width: 50%;}#sk-container-id-3 div.sk-parallel-item:last-child::after {align-self: flex-start;width: 50%;}#sk-container-id-3 div.sk-parallel-item:only-child::after {width: 0;}#sk-container-id-3 div.sk-dashed-wrapped {border: 1px dashed gray;margin: 0 0.4em 0.5em 0.4em;box-sizing: border-box;padding-bottom: 0.4em;background-color: white;}#sk-container-id-3 div.sk-label label {font-family: monospace;font-weight: bold;display: inline-block;line-height: 1.2em;}#sk-container-id-3 div.sk-label-container {text-align: center;}#sk-container-id-3 div.sk-container {/* jupyter's `normalize.less` sets `[hidden] { display: none; }` but bootstrap.min.css set `[hidden] { display: none !important; }` so we also need the `!important` here to be able to override the default hidden behavior on the sphinx rendered scikit-learn.org. See: https://github.com/scikit-learn/scikit-learn/issues/21755 */display: inline-block !important;position: relative;}#sk-container-id-3 div.sk-text-repr-fallback {display: none;}</style><div id="sk-container-id-3" class="sk-top-container"><div class="sk-text-repr-fallback"><pre>GridSearchCV(cv=5, estimator=DecisionTreeClassifier(),
+             param_grid={&#x27;criterion&#x27;: [&#x27;gini&#x27;, &#x27;entropy&#x27;],
+                         &#x27;max_depth&#x27;: [1, 2, 3, 4, 5],
+                         &#x27;max_features&#x27;: [&#x27;auto&#x27;, &#x27;sqrt&#x27;, &#x27;log2&#x27;],
+                         &#x27;splitter&#x27;: [&#x27;best&#x27;, &#x27;random&#x27;]},
+             scoring=&#x27;accuracy&#x27;)</pre><b>In a Jupyter environment, please rerun this cell to show the HTML representation or trust the notebook. <br />On GitHub, the HTML representation is unable to render, please try loading this page with nbviewer.org.</b></div><div class="sk-container" hidden><div class="sk-item sk-dashed-wrapped"><div class="sk-label-container"><div class="sk-label sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="sk-estimator-id-3" type="checkbox" ><label for="sk-estimator-id-3" class="sk-toggleable__label sk-toggleable__label-arrow">GridSearchCV</label><div class="sk-toggleable__content"><pre>GridSearchCV(cv=5, estimator=DecisionTreeClassifier(),
+             param_grid={&#x27;criterion&#x27;: [&#x27;gini&#x27;, &#x27;entropy&#x27;],
+                         &#x27;max_depth&#x27;: [1, 2, 3, 4, 5],
+                         &#x27;max_features&#x27;: [&#x27;auto&#x27;, &#x27;sqrt&#x27;, &#x27;log2&#x27;],
+                         &#x27;splitter&#x27;: [&#x27;best&#x27;, &#x27;random&#x27;]},
+             scoring=&#x27;accuracy&#x27;)</pre></div></div></div><div class="sk-parallel"><div class="sk-parallel-item"><div class="sk-item"><div class="sk-label-container"><div class="sk-label sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="sk-estimator-id-4" type="checkbox" ><label for="sk-estimator-id-4" class="sk-toggleable__label sk-toggleable__label-arrow">estimator: DecisionTreeClassifier</label><div class="sk-toggleable__content"><pre>DecisionTreeClassifier()</pre></div></div></div><div class="sk-serial"><div class="sk-item"><div class="sk-estimator sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="sk-estimator-id-5" type="checkbox" ><label for="sk-estimator-id-5" class="sk-toggleable__label sk-toggleable__label-arrow">DecisionTreeClassifier</label><div class="sk-toggleable__content"><pre>DecisionTreeClassifier()</pre></div></div></div></div></div></div></div></div></div></div>
+</div>
+</div>
+<div id="635d8dc7" class="cell code" id="635d8dc7"
+data-outputId="5325912e-168d-4cb3-c203-08cbac4f7a0b">
+<div class="sourceCode" id="cb51"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb51-1"><a href="#cb51-1" aria-hidden="true" tabindex="-1"></a>grid_search.best_params_</span></code></pre></div>
+<div class="output execute_result" data-execution_count="37">
+<pre><code>{&#39;criterion&#39;: &#39;gini&#39;,
+ &#39;max_depth&#39;: 4,
+ &#39;max_features&#39;: &#39;log2&#39;,
+ &#39;splitter&#39;: &#39;random&#39;}</code></pre>
+</div>
+</div>
+<div id="ba181327" class="cell code" id="ba181327">
+<div class="sourceCode" id="cb53"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb53-1"><a href="#cb53-1" aria-hidden="true" tabindex="-1"></a>dtc_cv <span class="op">=</span> DecisionTreeClassifier(criterion <span class="op">=</span> <span class="st">&#39;entropy&#39;</span>,</span>
+<span id="cb53-2"><a href="#cb53-2" aria-hidden="true" tabindex="-1"></a> max_depth <span class="op">=</span> <span class="dv">5</span>,</span>
+<span id="cb53-3"><a href="#cb53-3" aria-hidden="true" tabindex="-1"></a> max_features <span class="op">=</span> <span class="st">&#39;sqrt&#39;</span>,</span>
+<span id="cb53-4"><a href="#cb53-4" aria-hidden="true" tabindex="-1"></a> splitter <span class="op">=</span> <span class="st">&#39;best&#39;</span>)</span></code></pre></div>
+</div>
+<div id="24e7dc1a" class="cell code" id="24e7dc1a"
+data-outputId="b33c4a22-29ab-4b7c-bb3c-c3ead192d741">
+<div class="sourceCode" id="cb54"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb54-1"><a href="#cb54-1" aria-hidden="true" tabindex="-1"></a>dtc_cv.fit(xtrain,ytrain)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="39">
+<style>#sk-container-id-4 {color: black;}#sk-container-id-4 pre{padding: 0;}#sk-container-id-4 div.sk-toggleable {background-color: white;}#sk-container-id-4 label.sk-toggleable__label {cursor: pointer;display: block;width: 100%;margin-bottom: 0;padding: 0.3em;box-sizing: border-box;text-align: center;}#sk-container-id-4 label.sk-toggleable__label-arrow:before {content: "▸";float: left;margin-right: 0.25em;color: #696969;}#sk-container-id-4 label.sk-toggleable__label-arrow:hover:before {color: black;}#sk-container-id-4 div.sk-estimator:hover label.sk-toggleable__label-arrow:before {color: black;}#sk-container-id-4 div.sk-toggleable__content {max-height: 0;max-width: 0;overflow: hidden;text-align: left;background-color: #f0f8ff;}#sk-container-id-4 div.sk-toggleable__content pre {margin: 0.2em;color: black;border-radius: 0.25em;background-color: #f0f8ff;}#sk-container-id-4 input.sk-toggleable__control:checked~div.sk-toggleable__content {max-height: 200px;max-width: 100%;overflow: auto;}#sk-container-id-4 input.sk-toggleable__control:checked~label.sk-toggleable__label-arrow:before {content: "▾";}#sk-container-id-4 div.sk-estimator input.sk-toggleable__control:checked~label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-4 div.sk-label input.sk-toggleable__control:checked~label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-4 input.sk-hidden--visually {border: 0;clip: rect(1px 1px 1px 1px);clip: rect(1px, 1px, 1px, 1px);height: 1px;margin: -1px;overflow: hidden;padding: 0;position: absolute;width: 1px;}#sk-container-id-4 div.sk-estimator {font-family: monospace;background-color: #f0f8ff;border: 1px dotted black;border-radius: 0.25em;box-sizing: border-box;margin-bottom: 0.5em;}#sk-container-id-4 div.sk-estimator:hover {background-color: #d4ebff;}#sk-container-id-4 div.sk-parallel-item::after {content: "";width: 100%;border-bottom: 1px solid gray;flex-grow: 1;}#sk-container-id-4 div.sk-label:hover label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-4 div.sk-serial::before {content: "";position: absolute;border-left: 1px solid gray;box-sizing: border-box;top: 0;bottom: 0;left: 50%;z-index: 0;}#sk-container-id-4 div.sk-serial {display: flex;flex-direction: column;align-items: center;background-color: white;padding-right: 0.2em;padding-left: 0.2em;position: relative;}#sk-container-id-4 div.sk-item {position: relative;z-index: 1;}#sk-container-id-4 div.sk-parallel {display: flex;align-items: stretch;justify-content: center;background-color: white;position: relative;}#sk-container-id-4 div.sk-item::before, #sk-container-id-4 div.sk-parallel-item::before {content: "";position: absolute;border-left: 1px solid gray;box-sizing: border-box;top: 0;bottom: 0;left: 50%;z-index: -1;}#sk-container-id-4 div.sk-parallel-item {display: flex;flex-direction: column;z-index: 1;position: relative;background-color: white;}#sk-container-id-4 div.sk-parallel-item:first-child::after {align-self: flex-end;width: 50%;}#sk-container-id-4 div.sk-parallel-item:last-child::after {align-self: flex-start;width: 50%;}#sk-container-id-4 div.sk-parallel-item:only-child::after {width: 0;}#sk-container-id-4 div.sk-dashed-wrapped {border: 1px dashed gray;margin: 0 0.4em 0.5em 0.4em;box-sizing: border-box;padding-bottom: 0.4em;background-color: white;}#sk-container-id-4 div.sk-label label {font-family: monospace;font-weight: bold;display: inline-block;line-height: 1.2em;}#sk-container-id-4 div.sk-label-container {text-align: center;}#sk-container-id-4 div.sk-container {/* jupyter's `normalize.less` sets `[hidden] { display: none; }` but bootstrap.min.css set `[hidden] { display: none !important; }` so we also need the `!important` here to be able to override the default hidden behavior on the sphinx rendered scikit-learn.org. See: https://github.com/scikit-learn/scikit-learn/issues/21755 */display: inline-block !important;position: relative;}#sk-container-id-4 div.sk-text-repr-fallback {display: none;}</style><div id="sk-container-id-4" class="sk-top-container"><div class="sk-text-repr-fallback"><pre>DecisionTreeClassifier(criterion=&#x27;entropy&#x27;, max_depth=5, max_features=&#x27;sqrt&#x27;)</pre><b>In a Jupyter environment, please rerun this cell to show the HTML representation or trust the notebook. <br />On GitHub, the HTML representation is unable to render, please try loading this page with nbviewer.org.</b></div><div class="sk-container" hidden><div class="sk-item"><div class="sk-estimator sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="sk-estimator-id-6" type="checkbox" checked><label for="sk-estimator-id-6" class="sk-toggleable__label sk-toggleable__label-arrow">DecisionTreeClassifier</label><div class="sk-toggleable__content"><pre>DecisionTreeClassifier(criterion=&#x27;entropy&#x27;, max_depth=5, max_features=&#x27;sqrt&#x27;)</pre></div></div></div></div></div>
+</div>
+</div>
+<div id="d3294c4c" class="cell code" id="d3294c4c">
+<div class="sourceCode" id="cb55"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb55-1"><a href="#cb55-1" aria-hidden="true" tabindex="-1"></a>dtc_cv_pred <span class="op">=</span> dtc_cv.predict(xtest)</span></code></pre></div>
+</div>
+<div id="6c3640a7" class="cell code" id="6c3640a7"
+data-outputId="61c73529-0ba3-4c19-92b7-df0a3e8e9b28">
+<div class="sourceCode" id="cb56"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb56-1"><a href="#cb56-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(classification_report(ytest,dtc_cv_pred))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>              precision    recall  f1-score   support
+
+           0       0.86      0.94      0.90       245
+           1       0.44      0.24      0.32        49
+
+    accuracy                           0.82       294
+   macro avg       0.65      0.59      0.61       294
+weighted avg       0.79      0.82      0.80       294
+
+</code></pre>
+</div>
+</div>
+<div id="3dd16920" class="cell markdown" id="3dd16920">
+<h1 id="random-forest-classifier">Random Forest Classifier</h1>
+</div>
+<div id="607351c9" class="cell code" id="607351c9">
+<div class="sourceCode" id="cb58"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb58-1"><a href="#cb58-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.ensemble <span class="im">import</span> RandomForestClassifier</span>
+<span id="cb58-2"><a href="#cb58-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb58-3"><a href="#cb58-3" aria-hidden="true" tabindex="-1"></a>rfc <span class="op">=</span> RandomForestClassifier()</span></code></pre></div>
+</div>
+<div id="c444ed04" class="cell code" id="c444ed04">
+<div class="sourceCode" id="cb59"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb59-1"><a href="#cb59-1" aria-hidden="true" tabindex="-1"></a>forest_params <span class="op">=</span> [{<span class="st">&#39;max_depth&#39;</span>: <span class="bu">list</span>(<span class="bu">range</span>(<span class="dv">10</span>, <span class="dv">15</span>)), <span class="st">&#39;max_features&#39;</span>: <span class="bu">list</span>(<span class="bu">range</span>(<span class="dv">0</span>,<span class="dv">14</span>))}]</span></code></pre></div>
+</div>
+<div id="b9814016" class="cell code" id="b9814016">
+<div class="sourceCode" id="cb60"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb60-1"><a href="#cb60-1" aria-hidden="true" tabindex="-1"></a>rfc_cv <span class="op">=</span> GridSearchCV(rfc,forest_params,cv<span class="op">=</span><span class="dv">10</span>,scoring<span class="op">=</span><span class="st">&#39;accuracy&#39;</span>)</span>
+<span id="cb60-2"><a href="#cb60-2" aria-hidden="true" tabindex="-1"></a>rfc_cv.fit(xtrain,ytrain)</span></code></pre></div>
+</div>
+<div id="4ea07f12" class="cell code" id="4ea07f12">
+<div class="sourceCode" id="cb61"><pre
+class="sourceCode python"><code class="sourceCode python"></code></pre></div>
+</div>
+</body>
+</html>
